@@ -1,0 +1,2 @@
+UPDATE tb_mes_wo100 SET {0}={0}+1 
+WHERE ORDER_NO='{1}';

@@ -1,0 +1,15 @@
+{
+  "nodb" : false
+
+  ,"db_info_dir" : "../DB_pair/paeckdu/smhDev02"
+
+  ,"icon_path" : "./resource/printer.ico"
+  ,"logo_path" : "./resource/smlogo_white.png"
+
+  ,"font_size_factor" : 1080
+
+  ,"n_pixel" : 2233
+  ,"paper_img_path" : "./resource/label.png"
+  ,"paper_json_path" : "./resource/label.json"
+  ,"font_path" : "./resource/NanumGothic.ttf"
+}

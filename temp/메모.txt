@@ -1,0 +1,62 @@
+wo100
+	WLOT_NO : 
+	ITEM_CD : 품목코드
+	HIS_NO : 이력묶음번호
+	ORDER_DT : 지시일
+	EXPIRY_DT : 유통기한
+
+item000
+	ITEM_CD : 품목코드
+	ITEM_NM : 품목명
+	MFFART_RPT_NO : 품목제조번호
+	PLOR_CD : 원산지 ( KOR )
+	STRG_TYPE : 보관유형 ( F, C )
+	BOX_IN_CNT : 입수수량
+	
+
+skrghis110
+	HIS_NO : 이력묶음번호 ( 일련번호 )
+	BUNDLE_NO : 묶음번호
+	CATTLE_NO : 소 이력번호
+	PIG_NO : 돼지 이력번호
+	BUTCHERY_NM : 도축장 이름
+
+skrghis200
+	HIS_NO : 이력묶음번호 ( 일련번호 )
+	
+HIS_NO로 농장번호(FARM_NO)
+
+skrghis220
+FARM_NO로 농장명(FARM_NM)
+
+
+라벨지에 필요한 정보
+	품목명, 품목제조번호, 부위명, 중량, 유통기한, 도축장, 원산지, 보관방법, 이력(묶음)번호
+
+지시목록
+	품목명, 생산수량, 입수수량, 보관유형, 묶음번호, 농가, 도축장명, (품목코드, 부위명, 이력번호, )
+
+Box 바코드 계량 목록
+	품목코드, 품목명, 중량, 이력번호, 순번
+
+DB
+품목제조번호, 품목코드, 품목명, 부위명, 생산수량, 입수수량, 보관유형, 유통기한, 이력번호, 묶음번호, 농가명, 도축장명, 원산지
+
+
+SELECT 
+    w.ORDER_NO,
+    w.EXPIRY_DT, 
+    w.HIS_NO, 
+    w.PROD_QTY, 
+    i.ITEM_CD, 
+    i.ITEM_NM, 
+    i.MFFART_RPT_NO, 
+    i.BOX_IN_CNT,
+    i.PLOR_CD, 
+    i.STRG_TYPE,
+    s.BUNDLE_NO, 
+    s.BUTCHERY_NM
+FROM 
+    tb_mes_wo100 w
+    JOIN tb_mes_item000 i ON w.ITEM_CD = i.ITEM_CD
+    JOIN tb_mes_skrghis110 s ON w.HIS_NO = s.HIS_NO;

@@ -1,0 +1,19 @@
+numpy
+pandas
+opencv-python
+pillow
+tkcalendar
+python-barcode
+
+# DB
+PyMySQL
+cryptography
+
+# crypto
+pycryptodome
+
+# Dev
+jupyterlab
+
+# exe
+auto-py-to-exe
