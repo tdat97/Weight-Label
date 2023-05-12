@@ -34,7 +34,7 @@ class TableManager():
         # DB 읽기
         sql = self.select_sql.format(date)
         if self.db_con is None:
-            self.df = pd.read_csv(self.nodb_path)
+            self.df = pd.read_csv(self.nodb_path, encoding='cp949')
         else:
             self.df = pd.read_sql(sql, self.db_con)
             
@@ -57,7 +57,8 @@ class TableManager():
                 idx = idxs[0]
                 self.df.loc[idx] = row
                 
-    def excute_update(self, col, order_no):
-        sql = self.update_sql.format(col, order_no)
+    def excute_update(self, col, formula, order_no):
+        if self.db_con is None: return
+        sql = self.update_sql.format(col, formula, order_no)
         cur = self.db_con.cursor()
         cur.execute(sql)

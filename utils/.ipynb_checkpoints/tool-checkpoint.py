@@ -15,6 +15,8 @@ def make_barcode_img(code, kind='gs1_128', options=None):
 
 from PIL import ImageFont, ImageDraw, Image
 def make_text_img(text, font_pil, margin=10):
+    assert type(text) is str
+    
     # 글씨 이미지 wh 구하기
     font_wh = [int(font_pil.getlength(text)), font_pil.size]
     font_wh[0] += margin*2

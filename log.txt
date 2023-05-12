@@ -1081,3 +1081,1363 @@ NameError: name 'pymysql' is not defined
 2023-05-09 17:30:52,308 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
 2023-05-09 17:30:52,309 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
 2023-05-09 17:30:52,621 - root - INFO - UPDATE : 2023-05-09
+2023-05-10 09:57:35,456 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 09:57:35,456 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 09:57:35,457 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 09:57:35,730 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:00:20,435 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:00:20,435 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:00:20,436 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:00:20,582 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:00:21,781 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 150, in real_time_get
+    ser = serial.Serial(port, 9600)
+  File "C:\_MAIN\___SPACE2\env\weight_label_print\lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\_MAIN\___SPACE2\env\weight_label_print\lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\_MAIN\___SPACE2\env\weight_label_print\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+
+2023-05-10 10:06:03,975 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:06:03,975 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:06:03,976 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:06:04,129 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:06:05,761 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 150, in real_time_get
+    ser = serial.Serial(port, 9600)
+  File "C:\_MAIN\___SPACE2\env\weight_label_print\lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\_MAIN\___SPACE2\env\weight_label_print\lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\_MAIN\___SPACE2\env\weight_label_print\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': PermissionError(13, '액세스가 거부되었습니다.', None, 5)
+
+2023-05-10 10:06:29,028 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:06:29,028 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:06:29,029 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:06:29,182 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:13:12,067 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:13:12,067 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:13:12,068 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:13:12,252 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:13:24,894 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:13:24,894 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:13:24,895 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:13:25,059 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:14:49,394 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:14:49,394 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:14:49,394 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:14:49,558 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:15:13,930 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:15:13,930 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:15:13,930 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:15:14,093 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:18:42,986 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:18:42,987 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:18:42,987 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:18:43,157 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:19:13,675 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:19:13,675 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:19:13,675 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:19:13,838 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:19:36,931 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:19:36,931 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:19:36,932 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:19:37,091 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:20:35,046 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:20:35,046 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:20:35,047 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:20:35,211 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:22:22,418 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:22:22,418 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:22:22,419 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:22:22,580 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:22:34,821 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:22:34,821 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:22:34,821 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:22:34,989 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:23:26,259 - root - INFO - UPDATE : 2023-05-09
+2023-05-10 10:23:30,515 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:23:34,772 - root - INFO - UPDATE : 2023-05-09
+2023-05-10 10:23:43,505 - root - INFO - PRINT : {'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': '123456', 'boowi': ' ', 'weight': '35.79 kg', 'today': '2023-05-09', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021'}
+2023-05-10 10:23:43,505 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:23:43,505 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:23:43,505 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-10 10:23:43,506 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-10 10:23:43,506 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-10 10:23:50,167 - root - INFO - PRINT : {'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': '123456', 'boowi': ' ', 'weight': '51.58 kg', 'today': '2023-05-09', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021'}
+2023-05-10 10:24:00,514 - root - INFO - PRINT : {'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': '123456', 'boowi': ' ', 'weight': '-4.73 kg', 'today': '2023-05-09', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021'}
+2023-05-10 10:32:14,245 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:32:14,246 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:32:14,246 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:32:14,418 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:32:17,902 - root - INFO - UPDATE : 2023-05-09
+2023-05-10 10:32:34,011 - root - INFO - PRINT : {'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': '123456', 'boowi': ' ', 'weight': '71.87 kg', 'today': '2023-05-09', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021'}
+2023-05-10 10:32:34,012 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:32:34,012 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:32:34,012 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-10 10:32:34,012 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-10 10:32:34,013 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-10 10:34:18,570 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:34:18,570 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:34:18,570 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:34:18,737 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:52:32,756 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:52:32,757 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:52:32,757 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:52:32,794 - root - WARNING - DB 로드 실패
+2023-05-10 10:52:33,907 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-10 10:52:34,005 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:58:42,143 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:58:42,143 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:58:42,143 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:58:42,187 - root - WARNING - DB 로드 실패
+2023-05-10 10:58:43,326 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-10 10:58:43,545 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 10:59:41,911 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 10:59:41,912 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 10:59:41,912 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 10:59:41,953 - root - WARNING - DB 로드 실패
+2023-05-10 10:59:42,759 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-10 10:59:42,860 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 11:00:48,202 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 11:00:48,202 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 11:00:48,202 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 11:00:48,246 - root - WARNING - DB 로드 실패
+2023-05-10 11:00:48,983 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-10 11:00:49,081 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 11:00:53,161 - root - INFO - PRINT : {'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': 123456, 'boowi': ' ', 'weight': '85.99 kg', 'today': '2023-05-10', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021'}
+2023-05-10 11:00:53,162 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 11:00:53,162 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 11:00:53,162 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-10 11:00:53,162 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-10 11:00:53,162 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-10 11:03:06,531 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 11:03:06,531 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 11:03:06,532 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 11:03:06,571 - root - WARNING - DB 로드 실패
+2023-05-10 11:03:07,653 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-10 11:03:07,751 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 11:03:10,499 - root - INFO - PRINT : {'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '0.0 kg', 'today': '2023-05-10', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021'}
+2023-05-10 11:03:10,500 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 11:03:10,500 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 11:03:10,500 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-10 11:03:10,501 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-10 11:03:10,501 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-10 11:05:47,797 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 11:05:47,797 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 11:05:47,798 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 11:05:47,843 - root - WARNING - DB 로드 실패
+2023-05-10 11:05:48,671 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-10 11:05:48,770 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 11:05:58,760 - root - INFO - PRINT : {'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '96.38 kg', 'today': '2023-05-10', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021'}
+2023-05-10 11:05:58,760 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 11:05:58,760 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 11:05:58,761 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-10 11:05:58,761 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-10 11:05:58,761 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-10 17:54:50,185 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 17:54:50,186 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 17:54:50,186 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 17:54:50,234 - root - WARNING - DB 로드 실패
+2023-05-10 17:54:51,161 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-10 17:54:51,392 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 17:55:04,214 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 17:55:04,214 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 17:55:04,214 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 17:55:04,391 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 17:55:08,349 - root - INFO - UPDATE : 2023-05-09
+2023-05-10 17:55:13,658 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': '123456', 'boowi': ' ', 'weight': '79.18 kg', 'today': '2023-05-09', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR000123050900791800000155499455'}
+2023-05-10 17:55:13,659 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 17:55:13,659 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 17:55:13,659 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-10 17:55:13,660 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-10 17:55:13,660 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-10 17:56:03,083 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 17:56:03,083 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 17:56:03,083 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-10 17:56:03,257 - root - INFO - UPDATE : 2023-05-10
+2023-05-10 17:56:07,069 - root - INFO - UPDATE : 2023-05-09
+2023-05-10 17:56:09,250 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': '123456', 'boowi': ' ', 'weight': '30.31 kg', 'today': '2023-05-09', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305090030310181982215'}
+2023-05-10 17:56:09,250 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-10 17:56:09,251 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-10 17:56:09,251 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-10 17:56:09,251 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-10 17:56:09,251 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-11 12:32:25,183 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 12:32:25,183 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 12:32:25,183 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 12:32:25,488 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 12:32:32,209 - root - INFO - UPDATE : 2023-05-09
+2023-05-11 12:32:34,841 - root - INFO - UPDATE : 2023-05-08
+2023-05-11 12:32:36,897 - root - INFO - UPDATE : 2023-05-10
+2023-05-11 12:36:02,233 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 12:36:02,233 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 12:36:02,233 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 12:36:02,268 - root - WARNING - DB 로드 실패
+2023-05-11 12:36:03,349 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 12:36:03,511 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 12:36:08,049 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '96.15 kg', 'today': '2023-05-11', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305110096150106254026'}
+2023-05-11 12:36:08,050 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 12:36:08,051 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 12:36:08,051 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-11 12:36:08,051 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-11 12:36:08,051 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-11 12:37:11,432 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 12:37:13,505 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 12:37:13,513 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 12:37:13,557 - root - WARNING - DB 로드 실패
+2023-05-11 12:37:14,766 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 12:37:14,860 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 12:37:17,655 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '0.0 kg', 'today': '2023-05-11', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305110000000115162433'}
+2023-05-11 12:37:17,655 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 12:37:17,655 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 12:37:17,656 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-11 12:37:17,656 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-11 12:37:17,656 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-11 12:37:47,038 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 12:37:47,038 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 12:37:47,038 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 12:37:47,075 - root - WARNING - DB 로드 실패
+2023-05-11 12:37:47,825 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 12:37:47,919 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 12:37:49,364 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '0.0 kg', 'today': '2023-05-11', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305110000000166949028'}
+2023-05-11 12:37:49,364 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 12:37:49,364 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 12:37:49,365 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-11 12:37:49,365 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-11 12:37:49,365 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-11 12:39:08,543 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 12:39:08,544 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 12:39:08,544 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 12:39:08,578 - root - WARNING - DB 로드 실패
+2023-05-11 12:39:09,313 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 12:39:09,408 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 12:39:18,476 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '90.53 kg', 'today': '2023-05-11', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305110090530134420899'}
+2023-05-11 12:39:18,477 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 12:39:18,477 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 12:39:18,477 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-11 12:39:18,477 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-11 12:39:18,478 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-11 14:13:19,914 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:13:19,914 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:13:19,914 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:13:19,960 - root - WARNING - DB 로드 실패
+2023-05-11 14:13:20,774 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:13:20,865 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:13:57,077 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:13:57,077 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:13:57,077 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:13:57,105 - root - WARNING - DB 로드 실패
+2023-05-11 14:13:57,893 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:13:57,985 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:14:11,938 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:14:11,938 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:14:11,938 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:14:11,958 - root - WARNING - DB 로드 실패
+2023-05-11 14:14:12,701 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:14:12,797 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:20:37,538 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:20:37,538 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:20:37,538 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:20:37,574 - root - WARNING - DB 로드 실패
+2023-05-11 14:20:38,326 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:20:38,538 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:20:52,232 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:20:52,233 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:20:52,233 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:20:52,269 - root - WARNING - DB 로드 실패
+2023-05-11 14:20:52,671 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:20:52,762 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:22:21,465 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:22:21,465 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:22:21,465 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:22:21,503 - root - WARNING - DB 로드 실패
+2023-05-11 14:22:22,178 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:22:22,298 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:22:57,347 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:22:57,348 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:22:57,348 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:22:57,384 - root - WARNING - DB 로드 실패
+2023-05-11 14:22:58,004 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 87, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:22:58,109 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:26:56,466 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:26:56,467 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:26:56,467 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:26:56,501 - root - WARNING - DB 로드 실패
+2023-05-11 14:26:57,178 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:26:57,273 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:27:21,279 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:27:21,279 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:27:21,279 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:27:21,314 - root - WARNING - DB 로드 실패
+2023-05-11 14:27:21,979 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:27:22,074 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:27:34,586 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:27:34,586 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:27:34,587 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:27:34,623 - root - WARNING - DB 로드 실패
+2023-05-11 14:27:35,001 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:27:35,112 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:27:42,821 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:27:42,821 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:27:42,822 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:27:42,857 - root - WARNING - DB 로드 실패
+2023-05-11 14:27:43,442 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:27:43,542 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:27:54,023 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:27:54,023 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:27:54,023 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:27:54,060 - root - WARNING - DB 로드 실패
+2023-05-11 14:27:54,555 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:27:54,646 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:28:05,323 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:28:05,323 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:28:05,324 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:28:05,360 - root - WARNING - DB 로드 실패
+2023-05-11 14:28:05,915 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:28:06,008 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:28:17,844 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:28:17,844 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:28:17,844 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:28:17,881 - root - WARNING - DB 로드 실패
+2023-05-11 14:28:18,460 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:28:18,552 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:28:28,362 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '11.68 kg', 'today': '2023-05-11', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(주)강원엘피씨', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305110011680179708998'}
+2023-05-11 14:28:28,363 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:28:28,363 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:28:28,363 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-11 14:28:28,364 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-11 14:28:28,364 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-11 14:29:14,454 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:29:14,454 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:29:14,454 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:29:14,492 - root - WARNING - DB 로드 실패
+2023-05-11 14:29:15,086 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:29:15,177 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:29:51,427 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:29:51,427 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:29:51,427 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:29:51,464 - root - WARNING - DB 로드 실패
+2023-05-11 14:29:52,141 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:29:52,240 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:30:16,269 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:30:16,269 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:30:16,270 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:30:16,305 - root - WARNING - DB 로드 실패
+2023-05-11 14:30:17,032 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:30:17,125 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:30:36,234 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:30:36,235 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:30:36,235 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:30:36,272 - root - WARNING - DB 로드 실패
+2023-05-11 14:30:36,913 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:30:37,006 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:36:03,456 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:36:03,456 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:36:03,456 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:36:03,492 - root - WARNING - DB 로드 실패
+2023-05-11 14:36:04,166 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:36:04,286 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:37:52,519 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:37:52,519 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:37:52,520 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:37:52,564 - root - WARNING - DB 로드 실패
+2023-05-11 14:37:53,251 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:37:53,343 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 14:57:39,964 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 14:57:39,964 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 14:57:39,964 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 14:57:40,000 - root - WARNING - DB 로드 실패
+2023-05-11 14:57:42,317 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 14:57:42,414 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:33:58,111 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:33:58,111 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:33:58,111 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:33:58,149 - root - WARNING - DB 로드 실패
+2023-05-11 15:33:59,101 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:33:59,195 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:39:58,489 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:39:58,489 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:39:58,490 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:39:58,526 - root - WARNING - DB 로드 실패
+2023-05-11 15:39:59,335 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:39:59,430 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:40:51,069 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:40:51,069 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:40:51,070 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:40:51,105 - root - WARNING - DB 로드 실패
+2023-05-11 15:40:51,890 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:40:51,984 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:40:55,840 - root - INFO - UPDATE : 2023-05-03
+2023-05-11 15:41:00,844 - root - INFO - UPDATE : 2023-05-04
+2023-05-11 15:41:02,020 - root - INFO - UPDATE : 2023-05-09
+2023-05-11 15:41:03,228 - root - INFO - UPDATE : 2023-05-23
+2023-05-11 15:41:04,516 - root - INFO - UPDATE : 2023-05-25
+2023-05-11 15:41:05,804 - root - INFO - UPDATE : 2023-05-08
+2023-05-11 15:41:07,524 - root - INFO - UPDATE : 2023-05-05
+2023-05-11 15:41:09,988 - root - INFO - UPDATE : 2023-05-12
+2023-05-11 15:41:11,140 - root - INFO - UPDATE : 2023-05-06
+2023-05-11 15:41:13,972 - root - INFO - UPDATE : 2023-05-02
+2023-05-11 15:41:15,117 - root - INFO - UPDATE : 2023-05-24
+2023-05-11 15:41:16,316 - root - INFO - UPDATE : 2023-05-16
+2023-05-11 15:41:17,421 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:41:18,532 - root - INFO - UPDATE : 2023-05-12
+2023-05-11 15:41:19,836 - root - INFO - UPDATE : 2023-05-03
+2023-05-11 15:42:39,626 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:42:39,626 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:42:39,627 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:42:39,662 - root - WARNING - DB 로드 실패
+2023-05-11 15:42:40,532 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:42:40,623 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:42:42,871 - root - INFO - UPDATE : 2023-05-09
+2023-05-11 15:42:45,227 - root - INFO - UPDATE : 2023-05-04
+2023-05-11 15:42:46,835 - root - INFO - UPDATE : 2023-05-01
+2023-05-11 15:43:51,768 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:43:51,769 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:43:51,769 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:43:51,807 - root - WARNING - DB 로드 실패
+2023-05-11 15:43:52,679 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:43:52,775 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:46:10,040 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:46:10,040 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:46:10,040 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:46:10,076 - root - WARNING - DB 로드 실패
+2023-05-11 15:46:10,763 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:46:10,861 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:46:27,390 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:46:27,390 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:46:27,391 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:46:27,428 - root - WARNING - DB 로드 실패
+2023-05-11 15:46:28,084 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:46:28,178 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:46:38,477 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:46:38,477 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:46:38,477 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:46:38,514 - root - WARNING - DB 로드 실패
+2023-05-11 15:46:39,156 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:46:39,257 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:48:27,713 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:48:27,713 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:48:27,713 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:48:27,751 - root - WARNING - DB 로드 실패
+2023-05-11 15:48:28,311 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:48:28,417 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:48:42,340 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:48:42,340 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:48:42,341 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:48:42,377 - root - WARNING - DB 로드 실패
+2023-05-11 15:48:43,073 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:48:43,166 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:49:15,172 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:49:15,172 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:49:15,172 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:49:15,211 - root - WARNING - DB 로드 실패
+2023-05-11 15:49:15,824 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:49:15,915 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:49:26,117 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:49:26,117 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:49:26,117 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:49:26,153 - root - WARNING - DB 로드 실패
+2023-05-11 15:49:26,759 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:49:26,851 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:49:58,943 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 15:49:58,944 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 15:49:58,944 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 15:49:58,980 - root - WARNING - DB 로드 실패
+2023-05-11 15:49:59,633 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 15:49:59,727 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 15:50:08,184 - root - INFO - UPDATE : 2023-05-04
+2023-05-11 15:50:14,048 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 16:24:46,465 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 16:24:46,465 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 16:24:46,908 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 16:24:46,908 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 16:24:46,908 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 16:24:46,946 - root - WARNING - DB 로드 실패
+2023-05-11 16:24:47,754 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 16:26:03,017 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 16:26:03,017 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 16:26:03,418 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 16:26:03,418 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 16:26:03,419 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 16:26:03,454 - root - WARNING - DB 로드 실패
+2023-05-11 16:26:04,170 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 16:26:04,294 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 16:27:06,488 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 16:27:06,488 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 16:27:06,901 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 16:27:06,902 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 16:27:06,902 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 16:27:06,938 - root - WARNING - DB 로드 실패
+2023-05-11 16:27:07,662 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 16:27:07,781 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 16:27:32,449 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 16:27:32,450 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 16:27:32,865 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 16:27:32,865 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 16:27:32,865 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 16:27:32,902 - root - WARNING - DB 로드 실패
+2023-05-11 16:27:33,495 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 16:29:58,271 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 16:29:58,272 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 16:29:58,681 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 16:29:58,681 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 16:29:58,681 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 16:29:58,714 - root - WARNING - DB 로드 실패
+2023-05-11 16:29:59,482 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 16:29:59,574 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 16:31:27,353 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 16:31:27,354 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 16:31:27,763 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 16:31:27,764 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 16:31:27,764 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 16:31:27,800 - root - WARNING - DB 로드 실패
+2023-05-11 16:31:28,413 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 16:31:28,509 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 16:32:49,822 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 16:32:49,823 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 16:32:50,235 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 16:32:50,235 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 16:32:50,235 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 16:32:50,271 - root - WARNING - DB 로드 실패
+2023-05-11 16:32:50,991 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 16:32:51,084 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 16:33:06,607 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 16:33:06,607 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 16:33:07,016 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 16:33:07,016 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 16:33:07,016 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 16:33:07,053 - root - WARNING - DB 로드 실패
+2023-05-11 16:33:07,485 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 16:33:07,596 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 16:53:33,281 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 16:53:33,282 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 16:53:33,711 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 16:53:33,712 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 16:53:33,712 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 16:53:33,751 - root - WARNING - DB 로드 실패
+2023-05-11 16:53:34,449 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 16:53:34,573 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 17:07:40,592 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 17:07:40,593 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 17:07:41,005 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 17:07:41,005 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 17:07:41,006 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 17:07:41,041 - root - WARNING - DB 로드 실패
+2023-05-11 17:07:41,926 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 17:07:42,049 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 17:08:10,920 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 17:08:10,920 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 17:08:11,325 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 17:08:11,325 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 17:08:11,326 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 17:08:11,362 - root - WARNING - DB 로드 실패
+2023-05-11 17:08:12,335 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 17:08:12,427 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 17:35:20,573 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 17:35:20,573 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 17:35:20,998 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 17:35:20,999 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 17:35:20,999 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 17:35:21,027 - root - WARNING - DB 로드 실패
+2023-05-11 17:35:21,790 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 17:35:22,008 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 17:37:43,010 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 17:37:43,010 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 17:37:43,427 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 17:37:43,428 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 17:37:43,428 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 17:37:43,463 - root - WARNING - DB 로드 실패
+2023-05-11 17:37:44,081 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 17:37:44,172 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 17:38:05,580 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 17:38:05,580 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 17:38:06,014 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 17:38:06,014 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 17:38:06,014 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 17:38:06,052 - root - WARNING - DB 로드 실패
+2023-05-11 17:38:06,848 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 17:38:06,969 - root - INFO - UPDATE : 2023-05-11
+2023-05-11 17:41:46,091 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-11 17:41:46,091 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-11 17:41:46,520 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-11 17:41:46,520 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-11 17:41:46,520 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-11 17:41:46,561 - root - WARNING - DB 로드 실패
+2023-05-11 17:41:47,378 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-11 17:41:47,471 - root - INFO - UPDATE : 2023-05-11
+2023-05-12 09:44:14,288 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 09:44:14,288 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 09:44:15,256 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 09:44:15,256 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 09:44:15,257 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 09:44:15,294 - root - WARNING - DB 로드 실패
+2023-05-12 09:44:16,378 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 09:44:16,604 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 10:16:18,359 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 10:16:18,359 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 10:16:19,307 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 10:16:19,307 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 10:16:19,308 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 10:16:19,344 - root - WARNING - DB 로드 실패
+2023-05-12 10:16:20,168 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 10:16:20,402 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:32:22,593 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:32:22,593 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:32:23,525 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:32:23,525 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:32:23,525 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:32:23,576 - root - WARNING - DB 로드 실패
+2023-05-12 15:32:24,723 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:33:14,370 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:33:14,370 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:33:14,804 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:33:14,804 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:33:14,804 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:33:14,841 - root - WARNING - DB 로드 실패
+2023-05-12 15:33:15,659 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:33:26,616 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:33:26,616 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:33:27,028 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:33:27,028 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:33:27,028 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:33:27,064 - root - WARNING - DB 로드 실패
+2023-05-12 15:33:27,747 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:33:27,847 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:34:43,958 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:34:43,958 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:34:44,371 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:34:44,371 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:34:44,371 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:34:44,407 - root - WARNING - DB 로드 실패
+2023-05-12 15:34:45,061 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:34:45,128 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:36:31,077 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:36:31,077 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:36:31,490 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:36:31,490 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:36:31,490 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:36:31,525 - root - WARNING - DB 로드 실패
+2023-05-12 15:36:32,112 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:36:32,179 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:40:59,040 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:40:59,040 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:40:59,460 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:40:59,460 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:40:59,460 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:40:59,496 - root - WARNING - DB 로드 실패
+2023-05-12 15:41:00,255 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:41:00,321 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:41:07,262 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:41:07,262 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:41:07,690 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:41:07,690 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:41:07,690 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:41:07,726 - root - WARNING - DB 로드 실패
+2023-05-12 15:41:08,408 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:41:08,475 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:41:37,554 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:41:37,554 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:41:37,972 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:41:37,972 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:41:37,972 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:41:38,008 - root - WARNING - DB 로드 실패
+2023-05-12 15:41:38,659 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:41:38,727 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:42:36,473 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:42:36,473 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:42:36,885 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:42:36,885 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:42:36,885 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:42:36,922 - root - WARNING - DB 로드 실패
+2023-05-12 15:42:37,360 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:42:37,426 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:47:08,859 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:47:08,859 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:47:09,274 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:47:09,274 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:47:09,274 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:47:09,310 - root - WARNING - DB 로드 실패
+2023-05-12 15:47:09,995 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:47:10,066 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:48:36,761 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:48:36,761 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:48:37,191 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:48:37,191 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:48:37,191 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:48:37,227 - root - WARNING - DB 로드 실패
+2023-05-12 15:48:37,804 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:48:37,877 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:48:53,138 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:48:53,138 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:48:53,552 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:48:53,552 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:48:53,552 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:48:53,585 - root - WARNING - DB 로드 실패
+2023-05-12 15:48:54,221 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:48:54,293 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:51:16,414 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:51:16,414 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:51:16,829 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:51:16,829 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:51:16,829 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:51:16,865 - root - WARNING - DB 로드 실패
+2023-05-12 15:51:17,488 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:51:17,554 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:51:45,257 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:51:45,257 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:51:45,669 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:51:45,669 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:51:45,669 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:51:45,705 - root - WARNING - DB 로드 실패
+2023-05-12 15:51:46,633 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:51:46,701 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:52:45,236 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:52:45,236 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:52:45,647 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:52:45,647 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:52:45,647 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:52:45,684 - root - WARNING - DB 로드 실패
+2023-05-12 15:52:46,523 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:52:46,604 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:56:42,919 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:56:42,919 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:56:43,374 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:56:43,374 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:56:43,374 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:56:43,411 - root - WARNING - DB 로드 실패
+2023-05-12 15:56:45,410 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:56:45,589 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:57:35,088 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:57:35,088 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:57:35,508 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:57:35,508 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:57:35,508 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:57:35,545 - root - WARNING - DB 로드 실패
+2023-05-12 15:57:36,137 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:57:36,205 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:57:49,631 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:57:49,631 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:57:50,062 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:57:50,062 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:57:50,062 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:57:50,098 - root - WARNING - DB 로드 실패
+2023-05-12 15:57:50,660 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:57:50,729 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 15:58:38,793 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 15:58:38,793 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 15:58:39,221 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 15:58:39,221 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 15:58:39,221 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 15:58:39,256 - root - WARNING - DB 로드 실패
+2023-05-12 15:58:39,772 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 15:58:39,840 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:00:27,349 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:00:27,349 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:00:27,756 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:00:27,756 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:00:27,756 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:00:27,793 - root - WARNING - DB 로드 실패
+2023-05-12 16:00:28,375 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:00:28,445 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:00:43,086 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:00:43,086 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:00:43,499 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:00:43,499 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:00:43,499 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:00:43,534 - root - WARNING - DB 로드 실패
+2023-05-12 16:00:44,440 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:00:44,508 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:31:49,462 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:31:49,462 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:31:49,909 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:31:49,909 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:31:49,910 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:31:49,946 - root - WARNING - DB 로드 실패
+2023-05-12 16:31:50,617 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:31:50,811 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:32:12,938 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:32:12,938 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:32:13,353 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:32:13,354 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:32:13,354 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:32:13,389 - root - WARNING - DB 로드 실패
+2023-05-12 16:32:13,841 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:32:13,912 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:34:00,464 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:34:00,464 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:34:00,882 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:34:00,882 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:34:00,883 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:34:00,919 - root - WARNING - DB 로드 실패
+2023-05-12 16:34:01,693 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:34:01,765 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:34:54,564 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:34:54,564 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:34:54,978 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:34:54,978 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:34:54,978 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:34:55,014 - root - WARNING - DB 로드 실패
+2023-05-12 16:34:58,381 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:34:58,455 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:35:06,179 - root - INFO - UPDATE : 2023-05-13
+2023-05-12 16:35:31,691 - root - INFO - UPDATE : 2023-05-10
+2023-05-12 16:36:25,048 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:36:25,048 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:36:25,464 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:36:25,464 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:36:25,464 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:36:25,506 - root - WARNING - DB 로드 실패
+2023-05-12 16:36:25,970 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:36:26,043 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:38:07,712 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:38:07,712 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:38:08,131 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:38:08,131 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:38:08,131 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:38:08,165 - root - WARNING - DB 로드 실패
+2023-05-12 16:38:08,868 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:38:08,961 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:38:41,994 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:38:41,995 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:38:42,409 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:38:42,409 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:38:42,409 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:38:42,443 - root - WARNING - DB 로드 실패
+2023-05-12 16:38:45,574 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:38:45,646 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:40:14,498 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:40:14,498 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:40:14,910 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:40:14,910 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:40:14,910 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:40:14,946 - root - WARNING - DB 로드 실패
+2023-05-12 16:40:15,592 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:40:15,664 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:40:41,374 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:40:41,375 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:40:41,792 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:40:41,792 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:40:41,792 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:40:41,829 - root - WARNING - DB 로드 실패
+2023-05-12 16:40:42,473 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:40:42,546 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:41:10,230 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:41:10,230 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:41:10,647 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:41:10,647 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:41:10,648 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:41:10,683 - root - WARNING - DB 로드 실패
+2023-05-12 16:41:11,154 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:41:11,226 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:42:32,049 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:42:32,049 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:42:32,468 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:42:32,469 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:42:32,469 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:42:32,504 - root - WARNING - DB 로드 실패
+2023-05-12 16:42:33,076 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:42:33,149 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:42:35,788 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn1', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '0.0 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장1)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305120000000136527910'}
+2023-05-12 16:42:35,789 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:42:35,789 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:42:35,789 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-12 16:42:35,789 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-12 16:42:35,790 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-12 16:43:05,968 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:43:05,969 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:43:06,387 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:43:06,388 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:43:06,388 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:43:06,427 - root - WARNING - DB 로드 실패
+2023-05-12 16:43:07,598 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:43:07,690 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:44:48,890 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:44:48,890 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:44:49,294 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:44:49,295 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:44:49,295 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:44:49,331 - root - WARNING - DB 로드 실패
+2023-05-12 16:44:49,902 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:44:49,977 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:45:43,445 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:45:43,445 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:45:43,849 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:45:43,849 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:45:43,850 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:45:43,888 - root - WARNING - DB 로드 실패
+2023-05-12 16:45:44,449 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:45:44,523 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:48:42,900 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:48:42,901 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:48:43,308 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:48:43,308 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:48:43,309 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:48:43,345 - root - WARNING - DB 로드 실패
+2023-05-12 16:48:44,023 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:48:44,098 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:51:08,006 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:51:08,006 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:51:08,424 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:51:08,425 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:51:08,425 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:51:08,461 - root - WARNING - DB 로드 실패
+2023-05-12 16:51:09,794 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:51:09,865 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:52:44,423 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:52:44,423 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:52:44,841 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:52:44,841 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:52:44,841 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:52:44,877 - root - WARNING - DB 로드 실패
+2023-05-12 16:52:45,554 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:52:45,628 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:53:20,577 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:53:20,578 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:53:20,987 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:53:20,987 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:53:20,987 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:53:21,023 - root - WARNING - DB 로드 실패
+2023-05-12 16:53:21,590 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:53:21,662 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:53:27,511 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn1', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '0.39 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장1)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305120000390157643133'}
+2023-05-12 16:53:27,512 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:53:27,512 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:53:27,512 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-12 16:53:27,512 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-12 16:53:27,513 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-12 16:54:00,040 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-12 16:54:00,040 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-12 16:54:00,460 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:54:00,460 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:54:00,460 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-12 16:54:00,495 - root - WARNING - DB 로드 실패
+2023-05-12 16:54:01,302 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-12 16:54:01,395 - root - INFO - UPDATE : 2023-05-12
+2023-05-12 16:54:04,195 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn1', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '80.11 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장1)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305120080110106105912'}
+2023-05-12 16:54:04,196 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-12 16:54:04,199 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-12 16:54:04,199 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-12 16:54:04,199 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-12 16:54:04,199 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-12 16:54:24,365 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn1', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '11.91 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장1)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305120011910168085730'}
+2023-05-12 16:54:27,818 - root - INFO - CLEAR
+2023-05-12 16:54:30,142 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn1', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '48.38 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장1)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305120048380145249714'}
+2023-05-12 16:54:37,225 - root - INFO - PRINT : {'ITEM_CD': 'PR0002', 'ITEM_NM': 'test_unn2', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '47.26 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장2)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00022305120047260116121522'}
+2023-05-12 16:55:22,814 - root - INFO - PRINT : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn1', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '48.38 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장1)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00012305120048380101711842'}
+2023-05-12 16:55:38,840 - root - INFO - PRINT : {'ITEM_CD': 'PR0006', 'ITEM_NM': 'test_unn6', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '69.72 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장2)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00062305120069720164783665'}
+2023-05-12 16:55:51,342 - root - INFO - PRINT : {'ITEM_CD': 'PR0011', 'ITEM_NM': 'test_unn11', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '27.64 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장3)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00112305120027640192296311'}
+2023-05-12 16:56:00,987 - root - INFO - CLEAR
+2023-05-12 16:56:02,873 - root - INFO - PRINT : {'ITEM_CD': 'PR0011', 'ITEM_NM': 'test_unn11', 'MFFART_RPT_NO': 'm123456', 'boowi': ' ', 'weight': '85.41 kg', 'today': '2023-05-12', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장3)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'bar1': 'PR00112305120085410118386432'}

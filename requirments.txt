@@ -4,6 +4,8 @@ opencv-python
 pillow
 tkcalendar
 python-barcode
+pyserial
+tqdm
 
 # DB
 PyMySQL

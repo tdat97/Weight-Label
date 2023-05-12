@@ -1,5 +1,6 @@
 SELECT 
     w.ORDER_NO,
+    w.ORDER_DT,
     w.EXPIRY_DT, 
     w.HIS_NO, 
     w.PROD_QTY, 
