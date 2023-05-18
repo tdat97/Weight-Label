@@ -27,4 +27,4 @@ python run.py
 ![test (2)](https://github.com/tdat97/Weight-Label/assets/48349693/ac704f45-60be-49a2-b9ff-caeb28d6b8e0)
 
 ### Labelme Annotation
-![image](https://github.com/tdat97/Weight-Label/assets/48349693/5f0d2cff-55df-49aa-bd47-fe3ba38668b8)
+![tttt (2)](https://github.com/tdat97/Weight-Label/assets/48349693/e41f5bd9-24b9-4b75-aef3-72962f1f5728)
