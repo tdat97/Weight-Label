@@ -22,7 +22,7 @@ python run.py
 
 ##### GUI
 ![MicrosoftTeams-image (1)](https://github.com/tdat97/Weight-Label/assets/48349693/ab4ed20f-3ff8-4c79-ac43-bd2c2402a601)
-![wei_4대3](https://github.com/tdat97/Weight-Label/assets/48349693/7816499d-9d7c-496f-91c2-12973ab3e40b)
+![wei_4대3 (2)](https://github.com/tdat97/Weight-Label/assets/48349693/ba2c180f-81b9-4f8d-b915-e41d7ad3be5b)
 
 ##### Printing Label Paper
 ![test (2)](https://github.com/tdat97/Weight-Label/assets/48349693/ac704f45-60be-49a2-b9ff-caeb28d6b8e0)
