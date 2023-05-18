@@ -24,4 +24,4 @@ python run.py
 ![MicrosoftTeams-image (1)](https://github.com/tdat97/Weight-Label/assets/48349693/b5fe89a4-82a0-4db5-87e9-348fef1b8cf9)
 
 ##### Printing Label Paper
-![test](https://github.com/tdat97/Weight-Label/assets/48349693/40d865d2-b1e8-4201-9d8d-b14901c33a6c)
+![test (2)](https://github.com/tdat97/Weight-Label/assets/48349693/ac704f45-60be-49a2-b9ff-caeb28d6b8e0)
