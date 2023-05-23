@@ -4,7 +4,8 @@ SELECT
     w.EXPIRY_DT, 
     w.HIS_NO, 
     w.PROD_QTY, 
-    w.ORDER_ST
+    w.ORDER_ST,
+    w.WLOT_NO,
     i.ITEM_CD, 
     i.ITEM_NM, 
     i.MFFART_RPT_NO, 
@@ -18,4 +19,4 @@ FROM
     JOIN tb_mes_item000 i ON w.ITEM_CD = i.ITEM_CD
     JOIN tb_mes_skrghis110 s ON w.HIS_NO = s.HIS_NO
 WHERE
-    w.ORDER_DT = '{}' AND w.COMPANY = '1000';
+    w.ORDER_DT = '{}' AND w.COMPANY = 1000;

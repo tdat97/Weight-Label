@@ -1,0 +1,2 @@
+UPDATE tb_mes_wo180 SET {0}={1} 
+WHERE BOX_BARCODE='{2}';

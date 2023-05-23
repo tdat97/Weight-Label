@@ -1,0 +1,1492 @@
+2023-05-19 16:40:17,492 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-19 16:40:17,492 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-19 16:40:18,807 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-19 16:40:18,807 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-19 16:40:18,807 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-19 16:40:18,843 - root - WARNING - DB ∑ŒµÂ Ω«∆–
+2023-05-19 16:40:19,826 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 88, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-19 16:40:20,036 - root - INFO - UPDATE : 2023-05-19
+2023-05-19 16:52:55,226 - root - INFO - CLEAR
+2023-05-19 16:57:50,435 - root - INFO - UPDATE : 2023-05-17
+2023-05-19 16:57:53,211 - root - INFO - UPDATE : 2023-05-03
+2023-05-19 16:57:55,252 - root - INFO - UPDATE : 2023-05-18
+2023-05-19 16:59:28,102 - root - INFO - UPDATE : 2023-05-17
+2023-05-19 16:59:35,911 - root - INFO - UPDATE : 2023-05-18
+2023-05-19 16:59:38,307 - root - INFO - UPDATE : 2023-05-16
+2023-05-19 17:00:02,815 - root - INFO - UPDATE : 2023-05-18
+2023-05-22 16:20:18,748 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:20:18,748 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:20:19,669 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:20:19,669 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:20:19,669 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:20:19,935 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:20:22,285 - root - INFO - UPDATE : 2023-05-23
+2023-05-22 16:21:59,618 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:21:59,618 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:22:00,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:22:00,095 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:22:00,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:22:00,304 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:22:22,224 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:22:22,224 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:22:22,715 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:22:22,715 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:22:22,715 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:22:22,894 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:22:29,367 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:22:29,367 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:22:29,852 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:22:29,852 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:22:29,852 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:22:29,999 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:31:08,447 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:31:11,152 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:31:13,958 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:31:32,895 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:31:32,895 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:31:33,364 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:31:33,364 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:31:33,364 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:31:33,425 - root - WARNING - DB ∑ŒµÂ Ω«∆–
+2023-05-22 16:31:53,698 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:31:53,698 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:31:54,167 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:31:54,167 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:31:54,167 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:31:54,305 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:48:57,428 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:48:57,428 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:48:57,955 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:48:57,955 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:48:57,955 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:49:05,271 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:49:05,271 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:49:05,736 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:49:05,736 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:49:05,737 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:49:05,871 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:50:20,213 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:50:20,213 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:50:20,682 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:50:20,682 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:50:20,682 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:50:20,838 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:50:28,595 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:50:28,595 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:50:29,079 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:50:29,079 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:50:29,079 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:50:29,212 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:50:58,605 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:50:58,605 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:50:59,081 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:50:59,081 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:50:59,082 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:50:59,220 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:53:15,017 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:53:15,017 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:53:15,504 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:53:15,504 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:53:15,505 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:53:15,652 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 16:54:05,154 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 16:54:05,154 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 16:54:05,634 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 16:54:05,634 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 16:54:05,634 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 16:54:05,777 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 17:02:03,528 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 17:02:03,528 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 17:02:04,032 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 17:02:04,032 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 17:02:04,032 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 17:02:04,277 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 17:02:08,280 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 17:02:08,280 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 17:02:08,768 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 17:02:08,768 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 17:02:08,768 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 17:02:08,903 - root - INFO - UPDATE : 2023-05-22
+2023-05-22 17:27:55,679 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-22 17:27:55,679 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-22 17:27:56,209 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-22 17:27:56,209 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-22 17:27:56,209 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-22 17:27:56,289 - root - WARNING - DB ∑ŒµÂ Ω«∆–
+2023-05-23 12:13:49,174 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 12:13:49,174 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 12:13:50,109 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 12:13:50,109 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 12:13:50,109 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 12:13:50,373 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 12:15:40,343 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 12:15:40,343 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 12:15:40,766 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 12:15:40,766 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 12:15:40,766 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 12:15:40,901 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 12:15:44,645 - root - INFO - UPDATE : 2023-05-22
+2023-05-23 12:16:32,506 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 12:16:32,506 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 12:16:32,924 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 12:16:32,924 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 12:16:32,924 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 12:16:33,065 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 12:16:50,103 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 12:16:50,104 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 12:16:50,535 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 12:16:50,536 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 12:16:50,536 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 12:16:50,691 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 12:16:54,887 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 12:16:57,066 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 12:16:58,582 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 12:17:08,156 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 12:17:08,156 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 12:17:08,567 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 12:17:08,567 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 12:17:08,567 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 12:17:08,720 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 12:19:19,856 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 12:19:19,856 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 12:19:20,288 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 12:19:20,288 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 12:19:20,288 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 12:19:20,431 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 12:35:58,177 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 12:35:58,177 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 12:35:58,622 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 12:35:58,622 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 12:35:58,623 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 12:35:58,882 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:05:23,583 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:05:23,583 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:05:24,032 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:05:24,032 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:05:24,032 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:05:24,214 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:05:41,654 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:05:41,654 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:05:42,060 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:05:42,060 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:05:42,060 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:05:42,203 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:06:59,597 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:06:59,597 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:07:00,013 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:07:00,014 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:07:00,014 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:07:00,161 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:07:01,091 - root - INFO - SELECT : WO2305345
+2023-05-23 14:17:34,163 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:17:34,163 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:17:34,603 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:17:34,603 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:17:34,603 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:17:34,774 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:17:36,198 - root - INFO - SELECT : WO2305345
+2023-05-23 14:18:18,471 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:18:18,471 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:18:18,894 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:18:18,894 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:18:18,894 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:18:19,031 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:18:59,273 - root - INFO - SELECT : WO2305345
+2023-05-23 14:21:02,711 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:21:02,711 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:21:03,127 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:21:03,127 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:21:03,127 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:21:03,264 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:21:06,853 - root - INFO - SELECT : WO2305345
+2023-05-23 14:21:47,546 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:21:47,547 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:21:47,963 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:21:47,963 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:21:47,963 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:21:48,112 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:21:50,698 - root - INFO - SELECT : WO2305345
+2023-05-23 14:25:52,439 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:25:52,439 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:25:52,860 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:25:52,860 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:25:52,860 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:25:53,010 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:25:54,062 - root - INFO - SELECT : WO2305345
+2023-05-23 14:27:29,443 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:27:29,443 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:27:29,893 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:27:29,893 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:27:29,893 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:27:30,036 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:27:30,942 - root - INFO - SELECT : WO2305345
+2023-05-23 14:28:32,411 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:28:32,411 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:28:32,813 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:28:32,813 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:28:32,813 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:28:32,963 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:28:33,744 - root - INFO - SELECT : WO2305345
+2023-05-23 14:29:30,506 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:29:30,506 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:29:30,903 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:29:30,903 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:29:30,903 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:29:31,033 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:29:32,895 - root - INFO - SELECT : WO2305345
+2023-05-23 14:29:42,186 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:29:42,186 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:29:42,605 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:29:42,605 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:29:42,605 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:29:42,748 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:29:47,144 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:29:47,144 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:29:47,565 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:29:47,565 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:29:47,565 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:29:47,720 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:29:48,469 - root - INFO - SELECT : WO2305345
+2023-05-23 14:30:16,517 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:30:16,517 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:30:16,938 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:30:16,938 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:30:16,939 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:30:17,069 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:30:17,748 - root - INFO - SELECT : WO2305345
+2023-05-23 14:31:07,128 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:31:07,128 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:31:07,547 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:31:07,547 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:31:07,548 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:31:07,685 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:31:08,352 - root - INFO - SELECT : WO2305345
+2023-05-23 14:34:10,697 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:34:10,697 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:34:11,662 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:34:11,662 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:34:11,662 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:34:11,884 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:34:12,763 - root - INFO - SELECT : WO2305345
+2023-05-23 14:34:54,109 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:34:54,109 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:34:54,527 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:34:54,527 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:34:54,527 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:34:54,661 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:34:56,560 - root - INFO - SELECT : WO2305345
+2023-05-23 14:36:15,293 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:36:15,293 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:36:15,727 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:36:15,727 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:36:15,727 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:36:15,913 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:36:16,493 - root - INFO - SELECT : WO2305345
+2023-05-23 14:38:16,024 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:38:16,024 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:38:16,454 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:38:16,454 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:38:16,454 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:38:16,617 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:38:17,626 - root - INFO - SELECT : WO2305345
+2023-05-23 14:38:19,116 - root - INFO - INSERT : 0003452305230000000127245413
+2023-05-23 14:38:19,116 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '0.0 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234'}
+2023-05-23 14:38:19,129 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:38:19,129 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:38:19,129 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 14:38:19,129 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 14:38:19,129 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 14:38:54,086 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:38:54,086 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:38:54,518 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:38:54,518 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:38:54,518 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:38:54,653 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:38:55,518 - root - INFO - SELECT : WO2305345
+2023-05-23 14:38:56,974 - root - INFO - INSERT : 0003452305230000000183949849
+2023-05-23 14:38:56,988 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '0.0 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234'}
+2023-05-23 14:38:56,988 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:38:56,988 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:38:56,988 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 14:38:56,988 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 14:38:56,988 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 14:39:49,190 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:39:49,190 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:39:49,619 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:39:49,619 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:39:49,619 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:39:49,776 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:39:50,545 - root - INFO - SELECT : WO2305345
+2023-05-23 14:39:51,918 - root - INFO - INSERT : 0003452305230000000174985200
+2023-05-23 14:39:51,920 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '0.0 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230000000174985200'}
+2023-05-23 14:39:51,920 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:39:51,920 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:39:51,920 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 14:39:51,920 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 14:39:51,920 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 14:40:22,364 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:40:22,364 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:40:22,787 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:40:22,787 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:40:22,787 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:40:22,938 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:40:24,121 - root - INFO - SELECT : WO2305345
+2023-05-23 14:40:29,293 - root - INFO - INSERT : 0003452305230032550106625349
+2023-05-23 14:40:29,295 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '32.55 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230032550106625349'}
+2023-05-23 14:40:29,295 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:40:29,295 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:40:29,310 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 14:40:29,310 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 14:40:29,310 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 14:44:42,862 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:44:42,862 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:44:43,286 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:44:43,286 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:44:43,286 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:44:43,432 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:44:44,819 - root - INFO - SELECT : WO2305345
+2023-05-23 14:46:21,384 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:46:21,384 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:46:21,805 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:46:21,805 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:46:21,805 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:46:21,942 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:46:24,307 - root - INFO - SELECT : WO2305345
+2023-05-23 14:47:34,105 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:47:34,105 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:47:34,522 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:47:34,522 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:47:34,522 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:47:34,656 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:47:36,893 - root - INFO - SELECT : WO2305345
+2023-05-23 14:48:11,323 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:48:11,323 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:48:11,746 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:48:11,746 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:48:11,746 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:48:11,906 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:48:13,395 - root - INFO - SELECT : WO2305345
+2023-05-23 14:50:25,063 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:50:25,063 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:50:25,484 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:50:25,484 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:50:25,484 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:50:25,626 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 14:56:54,007 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 14:56:54,007 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 14:56:54,425 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 14:56:54,425 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 14:56:54,425 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 14:56:54,574 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:03:50,372 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:03:50,372 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:03:50,803 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:03:50,803 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:03:50,803 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:03:51,027 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:03:52,259 - root - INFO - SELECT : WO2305345
+2023-05-23 15:07:29,501 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:07:29,501 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:07:29,934 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:07:29,934 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:07:29,934 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:07:30,103 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:07:31,438 - root - INFO - SELECT : WO2305345
+2023-05-23 15:07:34,790 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '0.0 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230000000174985200'}
+2023-05-23 15:07:34,790 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:07:34,790 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:07:34,790 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 15:07:34,790 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 15:07:34,790 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 15:20:23,830 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:20:23,830 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:20:24,284 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:20:24,285 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:20:24,285 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:20:24,445 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:20:26,395 - root - INFO - SELECT : WO2305345
+2023-05-23 15:20:35,724 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '0.0 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230000000174985200'}
+2023-05-23 15:20:35,724 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:20:35,725 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:20:35,725 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 15:20:35,725 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 15:20:35,725 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 15:22:44,992 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:22:44,992 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:22:45,414 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:22:45,414 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:22:45,414 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:22:45,562 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:22:47,326 - root - INFO - SELECT : WO2305345
+2023-05-23 15:23:27,286 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:23:27,286 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:23:27,705 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:23:27,705 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:23:27,705 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:23:27,855 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:23:29,438 - root - INFO - SELECT : WO2305345
+2023-05-23 15:23:58,728 - root - INFO - INSERT : 0003452305230027250177834392
+2023-05-23 15:23:58,729 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '27.25 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230027250177834392'}
+2023-05-23 15:23:58,729 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:23:58,729 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:23:58,729 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 15:23:58,729 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 15:23:58,729 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 15:24:11,179 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:24:11,179 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:24:11,602 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:24:11,602 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:24:11,602 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:24:11,772 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:24:12,466 - root - INFO - SELECT : WO2305345
+2023-05-23 15:24:13,774 - root - INFO - INSERT : 0003452305230000000101154533
+2023-05-23 15:24:13,777 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '0.0 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230000000101154533'}
+2023-05-23 15:24:13,777 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:24:13,777 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:24:13,777 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 15:24:13,777 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 15:24:13,777 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 15:24:21,398 - root - INFO - INSERT : 0003452305230081890145483459
+2023-05-23 15:24:21,401 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '81.89 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230081890145483459'}
+2023-05-23 15:25:17,010 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:25:17,010 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:25:17,434 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:25:17,434 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:25:17,434 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:25:17,565 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:25:18,382 - root - INFO - SELECT : WO2305345
+2023-05-23 15:25:24,132 - root - INFO - INSERT : 0003452305230086990138464771
+2023-05-23 15:25:24,132 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '86.99 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230086990138464771'}
+2023-05-23 15:25:24,132 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:25:24,132 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:25:24,132 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 15:25:24,132 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 15:25:24,132 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 15:25:30,332 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '86.99 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230086990138464771'}
+2023-05-23 15:30:05,809 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:30:05,809 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:30:06,239 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:30:06,239 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:30:06,239 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:30:06,455 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:30:07,759 - root - INFO - SELECT : WO2305345
+2023-05-23 15:30:45,617 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '86.99 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230086990138464771'}
+2023-05-23 15:30:45,618 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:30:45,620 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:30:45,620 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 15:30:45,621 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 15:30:45,621 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 15:30:48,294 - root - INFO - INSERT : 0003452305230003540160898476
+2023-05-23 15:30:48,302 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '3.54 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230003540160898476'}
+2023-05-23 15:30:58,524 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '3.54 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230003540160898476'}
+2023-05-23 15:31:12,408 - root - INFO - INSERT : 0003452305230022130160621095
+2023-05-23 15:31:12,416 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '22.13 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230022130160621095'}
+2023-05-23 15:32:18,996 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:32:18,996 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:32:19,432 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:32:19,436 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:32:19,436 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:32:19,635 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:32:20,961 - root - INFO - SELECT : WO2305345
+2023-05-23 15:32:25,176 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '99.99 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '1234567890123456789012345678'}
+2023-05-23 15:32:25,176 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:32:25,176 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:32:25,176 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 15:32:25,176 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 15:32:25,176 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 15:32:30,688 - root - INFO - INSERT : 0003452305230069340117064328
+2023-05-23 15:32:30,689 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '69.34 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230069340117064328'}
+2023-05-23 15:32:35,678 - root - INFO - PRINT : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '69.34 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230069340117064328'}
+2023-05-23 15:32:48,412 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:32:48,412 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:32:48,830 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:32:48,830 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:32:48,830 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:32:48,972 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:32:50,178 - root - INFO - SELECT : WO2305345
+2023-05-23 15:33:01,348 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:33:01,348 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:33:01,790 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:33:01,791 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:33:01,791 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:33:01,924 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:33:02,952 - root - INFO - SELECT : WO2305345
+2023-05-23 15:33:04,738 - root - INFO - UPDATE : 2023-05-16
+2023-05-23 15:37:17,389 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:37:17,389 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:37:17,806 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:37:17,806 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:37:17,806 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:37:17,943 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:37:20,410 - root - INFO - SELECT : WO2305345
+2023-05-23 15:37:21,912 - root - INFO - UPDATE : 2023-05-17
+2023-05-23 15:37:23,850 - root - INFO - UPDATE : 2023-05-23
+2023-05-23 15:37:24,700 - root - INFO - SELECT : WO2305345
+2023-05-23 15:41:07,130 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:41:07,130 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:41:07,566 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:41:07,566 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:41:07,566 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:41:07,731 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:43:50,156 - root - INFO - SELECT : WO2305345
+2023-05-23 15:46:04,228 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:46:04,228 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:46:04,658 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:46:04,658 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:46:04,658 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:46:04,811 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:47:12,335 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:47:12,335 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:47:12,746 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:47:12,746 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:47:12,747 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:47:12,905 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:47:23,053 - root - INFO - SELECT : WO2305345
+2023-05-23 15:47:27,047 - root - INFO - SELECT : WO2305345
+2023-05-23 15:47:27,055 - root - INFO - SELECT : WO2305345
+2023-05-23 15:47:27,076 - root - INFO - SELECT : WO2305345
+2023-05-23 15:47:29,327 - root - INFO - SELECT : WO2305345
+2023-05-23 15:47:32,278 - root - INFO - INSERT : 0003452305230069410141787766
+2023-05-23 15:47:32,288 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '69.41 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230069410141787766'}
+2023-05-23 15:47:32,288 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:47:32,288 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:47:32,289 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 15:47:32,289 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 15:47:32,289 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 15:47:42,893 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:47:42,893 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:47:43,311 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:47:43,312 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:47:43,312 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:47:43,468 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:47:44,369 - root - INFO - SELECT : WO2305345
+2023-05-23 15:48:43,598 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:48:43,598 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:48:44,011 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:48:44,011 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:48:44,011 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:48:44,156 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:49:00,793 - root - INFO - SELECT : 2023-05-16
+2023-05-23 15:49:02,878 - root - INFO - SELECT : 2023-05-17
+2023-05-23 15:49:04,739 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:49:09,720 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:49:11,026 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:49:12,223 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:49:23,826 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:49:23,826 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:49:24,245 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:49:24,245 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:49:24,246 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:49:24,394 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:49:25,427 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:11,275 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:50:11,275 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:50:11,697 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:50:11,697 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:50:11,697 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:50:11,847 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:50:12,975 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:13,552 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:14,748 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:14,976 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:15,211 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:15,428 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:15,604 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:15,796 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:15,992 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:16,567 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:16,900 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:17,140 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:17,414 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:20,304 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:50:20,304 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:50:20,742 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:50:20,744 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:50:20,745 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:50:20,898 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:50:21,622 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:22,026 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:22,917 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:23,326 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:23,860 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:24,160 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:24,511 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:24,761 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:25,012 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:25,229 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:25,445 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:25,677 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:25,900 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:26,115 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:26,339 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:26,577 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:26,776 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:27,132 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:27,576 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:30,572 - root - INFO - SELECT : 2023-05-16
+2023-05-23 15:50:32,060 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:50:32,960 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:34,521 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:34,827 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:35,110 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:35,380 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:35,597 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:35,826 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:36,076 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:36,405 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:36,617 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:36,861 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:37,076 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:37,276 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:37,493 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:37,704 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:37,932 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:38,221 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:38,437 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:38,673 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:38,910 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:39,136 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:39,348 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:39,582 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:39,777 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:39,961 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:40,143 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:40,344 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:40,526 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:40,727 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:40,933 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:41,093 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:41,309 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:41,476 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:41,685 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:41,875 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:42,077 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:42,265 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:42,475 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:42,672 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:42,852 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:43,072 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:43,319 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:43,527 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:43,743 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:43,927 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:44,128 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:44,328 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:44,529 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:44,728 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:45,594 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:45,864 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:46,093 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:46,277 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:46,494 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:46,677 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:46,917 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:47,196 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:47,393 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:47,594 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:47,813 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:48,002 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:48,204 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:48,409 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:48,611 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:48,817 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:49,010 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:49,224 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:49,433 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:49,633 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:49,844 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:50,057 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:50,273 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:51,149 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:51,377 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:51,595 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:51,793 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:51,994 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:52,189 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:52,377 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:52,552 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:52,729 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:52,913 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:53,093 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:53,269 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:53,427 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:53,609 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:53,781 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:56,728 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:56,995 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:57,144 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:57,306 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:57,444 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:57,616 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:57,777 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:58,521 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:58,649 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:58,794 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:58,961 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:59,121 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:59,272 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:59,449 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:59,609 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:59,761 - root - INFO - SELECT : WO2305345
+2023-05-23 15:50:59,929 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:00,094 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:00,244 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:00,419 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:00,585 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:00,744 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:00,913 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:01,077 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:01,242 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:01,394 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:01,593 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:01,777 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:01,977 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:02,129 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:02,471 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:02,689 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:02,857 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:03,042 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:03,234 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:03,416 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:03,645 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:03,802 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:03,977 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:04,161 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:06,169 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:06,736 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:07,111 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:07,314 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:07,418 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:07,529 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:07,611 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:07,721 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:07,812 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:07,930 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:08,011 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:08,128 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:08,327 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:08,428 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:08,537 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:08,641 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:08,738 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:08,841 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:08,928 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:09,144 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:09,249 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:09,337 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:09,644 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:09,744 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:09,836 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:10,044 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:10,145 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:10,244 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:10,344 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:10,457 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:10,561 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:10,665 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:10,873 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:10,977 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:11,081 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:11,192 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:11,395 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:11,678 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:11,825 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:11,905 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:12,594 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:12,704 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:12,818 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:12,915 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:13,028 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:13,144 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:13,362 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:13,466 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:13,562 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:13,651 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:13,761 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:13,861 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:13,986 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:14,178 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:14,278 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:14,394 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:14,505 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:14,609 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:14,938 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:16,289 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:16,410 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:16,690 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:16,841 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:16,961 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:17,129 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:17,282 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:17,429 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:17,601 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:17,754 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:17,905 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:18,234 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:18,377 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:18,528 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:18,706 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:18,882 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:19,041 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:19,217 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:19,361 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:19,530 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:19,706 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:19,882 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:20,059 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:24,570 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:24,845 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:24,998 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:25,145 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:25,290 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:26,187 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:26,306 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:26,446 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:26,594 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:26,729 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:26,874 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:27,011 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:27,162 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:27,300 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:27,445 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:27,642 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:27,794 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:27,953 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:28,082 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:28,201 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:28,295 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:28,601 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:28,753 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:28,912 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:29,067 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:29,211 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:29,371 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:29,530 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:29,678 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:29,846 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:30,010 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:30,186 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:30,362 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:30,537 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:30,682 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:30,873 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:31,041 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:31,209 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:31,377 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:31,554 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:31,714 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:31,889 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:32,034 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:33,212 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:33,495 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:33,785 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:33,930 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:34,089 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:34,262 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:34,442 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:34,593 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:34,786 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:34,969 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:35,138 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:35,641 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:35,786 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:35,946 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:36,296 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:36,466 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:36,625 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:36,779 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:36,945 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:37,121 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:37,299 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:37,482 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:37,667 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:37,969 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:38,170 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:38,379 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:38,578 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:38,762 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:38,945 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:39,116 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:39,323 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:39,497 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:39,695 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:39,914 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:40,073 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:40,249 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:40,426 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:40,593 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:41,753 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:41,912 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:42,095 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:42,264 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:42,432 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:42,618 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:42,802 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:42,993 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:43,162 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:43,379 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:43,763 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:44,162 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:44,396 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:44,587 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:44,793 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:44,995 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:45,362 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:45,546 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:45,754 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:45,947 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:46,153 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:46,321 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:46,546 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:46,729 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:46,954 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:47,145 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:47,363 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:47,722 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:47,912 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:48,096 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:48,283 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:48,475 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:48,650 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:48,843 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:49,035 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:49,224 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:49,611 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:49,795 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:49,963 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:50,170 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:50,346 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:50,531 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:50,739 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:50,947 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:51,130 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:51,312 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:51,662 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:51,846 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:52,062 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:52,242 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:52,426 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:52,610 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:52,796 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:53,026 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:53,196 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:53,395 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:53,563 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:53,755 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:53,929 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:54,131 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:54,323 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:54,499 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:54,691 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:54,896 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:55,115 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:55,296 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:55,497 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:55,690 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:55,863 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:56,046 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:56,247 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:56,443 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:56,642 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:56,832 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:57,020 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:57,219 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:57,418 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:57,635 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:57,811 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:57,996 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:58,387 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:58,570 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:58,779 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:58,963 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:59,179 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:59,378 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:59,570 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:59,754 - root - INFO - SELECT : WO2305345
+2023-05-23 15:51:59,954 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:00,147 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:00,346 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:00,532 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:00,716 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:00,915 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:01,107 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:01,291 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:01,463 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:01,675 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:01,863 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:02,059 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:02,247 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:02,438 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:02,646 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:02,814 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:03,036 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:03,235 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:03,452 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:03,627 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:03,813 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:04,019 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:04,203 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:04,395 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:04,587 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:04,780 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:04,963 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:05,130 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:05,331 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:05,529 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:05,715 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:05,914 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:06,297 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:06,463 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:06,643 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:06,845 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:07,012 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:07,197 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:07,378 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:07,563 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:07,746 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:07,932 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:08,116 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:08,296 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:08,491 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:08,848 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:09,051 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:09,248 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:09,436 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:09,620 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:09,813 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:09,995 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:10,179 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:10,348 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:10,547 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:10,746 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:10,948 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:11,130 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:11,339 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:11,507 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:11,697 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:11,863 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:12,036 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:12,236 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:12,420 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:12,613 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:12,814 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:12,963 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:15,318 - root - INFO - INSERT : 0003452305230084230127971156
+2023-05-23 15:52:15,332 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '84.23 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230084230127971156'}
+2023-05-23 15:52:15,332 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:52:15,333 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:52:15,333 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 15:52:15,333 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 15:52:15,333 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 15:52:17,325 - root - INFO - INSERT : 0003452305230058250143622288
+2023-05-23 15:52:17,335 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '58.25 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230058250143622288'}
+2023-05-23 15:52:18,718 - root - INFO - INSERT : 0003452305230055370182097693
+2023-05-23 15:52:18,719 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '55.37 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230055370182097693'}
+2023-05-23 15:52:20,030 - root - INFO - INSERT : 0003452305230055370121354034
+2023-05-23 15:52:20,041 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '55.37 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230055370121354034'}
+2023-05-23 15:52:21,181 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:21,481 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:21,636 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:21,979 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:22,150 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:22,333 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:22,532 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:22,716 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:22,883 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:23,067 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:23,230 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:23,414 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:23,605 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:23,784 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:23,948 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:24,113 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:24,316 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:24,490 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:24,658 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:24,851 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:25,196 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:25,372 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:25,556 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:25,914 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:26,117 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:26,323 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:26,500 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:26,680 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:26,848 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:27,022 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:27,164 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:29,632 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:29,951 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:30,097 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:30,268 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:30,464 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:30,649 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:30,815 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:30,997 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:31,164 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:31,348 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:31,535 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:31,721 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:31,884 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:32,047 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:32,398 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:32,597 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:32,765 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:32,948 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:33,114 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:33,297 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:33,481 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:33,852 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:34,045 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:34,432 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:34,767 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:35,196 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:35,389 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:45,120 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:45,317 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:45,481 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:45,653 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:45,831 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:46,014 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:46,198 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:46,421 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:46,615 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:47,035 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:47,230 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:49,996 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:50,451 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:50,715 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:50,948 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:51,365 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:51,968 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:52,600 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:53,243 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:54,590 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:55,549 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:56,918 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:57,292 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:58,154 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:58,799 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:58,979 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:59,132 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:59,316 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:59,465 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:59,632 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:59,815 - root - INFO - SELECT : WO2305345
+2023-05-23 15:52:59,996 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:00,173 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:00,349 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:00,515 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:00,676 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:00,854 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:01,182 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:01,349 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:01,532 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:01,702 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:01,860 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:02,215 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:02,388 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:02,565 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:02,748 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:02,932 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:03,101 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:03,285 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:03,621 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:03,799 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:03,990 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:04,166 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:04,341 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:04,565 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:04,757 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:04,949 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:05,157 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:05,350 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:05,549 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:05,749 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:05,966 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:06,164 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:06,365 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:06,566 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:06,781 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:06,982 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:07,182 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:07,382 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:07,582 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:07,789 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:07,981 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:08,205 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:08,405 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:08,612 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:08,816 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:09,037 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:09,266 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:09,492 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:09,691 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:09,910 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:10,115 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:10,342 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:10,564 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:10,765 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:11,015 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:11,244 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:11,415 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:11,633 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:11,854 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:12,085 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:12,299 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:12,516 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:12,669 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:12,815 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:12,983 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:13,157 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:13,315 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:13,484 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:13,646 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:13,812 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:13,965 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:14,149 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:14,325 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:14,484 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:14,632 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:14,813 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:14,990 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:15,166 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:15,317 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:15,509 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:15,683 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:16,005 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:16,182 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:16,365 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:16,532 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:16,716 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:17,082 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:17,266 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:17,590 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:17,766 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:17,965 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:18,116 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:18,293 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:18,445 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:18,632 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:18,805 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:18,982 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:19,157 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:19,343 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:19,533 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:19,716 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:19,926 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:20,109 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:20,382 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:20,583 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:20,798 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:20,981 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:21,150 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:21,332 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:21,517 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:21,701 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:21,870 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:22,069 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:22,237 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:22,583 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:22,766 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:22,966 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:23,125 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:23,310 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:23,483 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:23,832 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:24,014 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:24,206 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:24,805 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:25,017 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:25,219 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:25,416 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:25,666 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:25,900 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:26,125 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:26,335 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:26,516 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:26,716 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:26,909 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:27,110 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:27,302 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:27,493 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:27,684 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:27,910 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:28,084 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:28,294 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:28,466 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:28,677 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:28,866 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:29,066 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:29,266 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:29,501 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:29,719 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:29,933 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:30,313 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:30,502 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:30,699 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:30,921 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:31,126 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:31,322 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:31,533 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:31,749 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:31,941 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:32,133 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:43,966 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:47,210 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:47,639 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:47,928 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:48,183 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:48,487 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:48,695 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:48,950 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:49,136 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:49,359 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:49,567 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:49,771 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:50,008 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:50,217 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:50,538 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:50,800 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:51,006 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:51,217 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:51,446 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:51,726 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:51,963 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:52,184 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:52,415 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:52,654 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:52,941 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:53,243 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:53,475 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:53,757 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:54,023 - root - INFO - SELECT : WO2305345
+2023-05-23 15:53:54,444 - root - INFO - SELECT : WO2305345
+2023-05-23 15:54:00,535 - root - INFO - SELECT : WO2305345
+2023-05-23 15:54:02,407 - root - INFO - SELECT : WO2305345
+2023-05-23 15:54:02,935 - root - INFO - SELECT : WO2305345
+2023-05-23 15:54:41,350 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:54:41,350 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:54:41,805 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:54:41,805 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:54:41,805 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:54:41,973 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:54:59,759 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:54:59,759 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:55:00,178 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:55:00,178 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:55:00,178 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:55:00,329 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:55:04,666 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:07,239 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:07,257 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:14,228 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:55:14,228 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:55:14,638 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:55:14,638 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:55:14,638 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:55:14,782 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:55:15,984 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:30,028 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 15:55:30,028 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 15:55:30,453 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 15:55:30,453 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 15:55:30,453 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 15:55:30,604 - root - INFO - SELECT : 2023-05-23
+2023-05-23 15:55:31,562 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:33,573 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:33,856 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:34,173 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:36,437 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:36,690 - root - INFO - SELECT : WO2305345
+2023-05-23 15:55:36,922 - root - INFO - SELECT : WO2305345
+2023-05-23 16:12:13,262 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:12:13,262 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:12:13,691 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:12:13,691 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:12:13,691 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:12:13,932 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:15:00,386 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:15:00,386 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:15:00,823 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:15:00,823 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:15:00,823 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:15:00,972 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:15:12,870 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:15:12,870 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:15:13,289 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:15:13,289 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:15:13,289 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:15:13,433 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:23:09,064 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:23:09,064 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:23:09,494 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:23:09,494 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:23:09,494 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:23:09,683 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:26:30,559 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:26:30,559 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:26:31,001 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:26:31,001 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:26:31,001 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:26:31,222 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:26:50,227 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:26:50,227 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:26:50,651 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:26:50,651 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:26:50,651 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:26:50,796 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:34:42,877 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:34:42,877 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:34:43,318 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:34:43,318 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:34:43,318 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:34:43,475 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:44:06,827 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:44:06,827 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:44:07,263 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:44:07,263 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:44:07,263 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:44:07,481 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:44:09,314 - root - INFO - SELECT : WO2305345
+2023-05-23 16:44:37,664 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:44:37,664 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:44:38,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:44:38,091 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:44:38,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:44:38,233 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:44:38,997 - root - INFO - SELECT : WO2305345
+2023-05-23 16:44:45,092 - root - INFO - SELECT : WO2305345
+2023-05-23 16:45:52,821 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:45:52,821 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:45:53,251 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:45:53,251 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:45:53,251 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:45:53,500 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:51:58,385 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 16:51:58,385 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 16:51:58,811 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:51:58,811 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:51:58,811 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 16:51:58,965 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:52:01,697 - root - INFO - SELECT : WO2305345 - detail : load_print_list
+2023-05-23 16:52:10,912 - root - INFO - DELETE : 0003452305230069410141787766
+2023-05-23 16:52:10,928 - root - INFO - UPDATE : WO2305345 - detail : QTY-1
+2023-05-23 16:52:12,835 - root - INFO - DELETE : 0003452305230069340117064328
+2023-05-23 16:52:12,837 - root - INFO - UPDATE : WO2305345 - detail : QTY-1
+2023-05-23 16:52:51,195 - root - INFO - SELECT : 2023-05-24
+2023-05-23 16:52:54,816 - root - INFO - SELECT : 2023-05-23
+2023-05-23 16:52:56,141 - root - INFO - SELECT : WO2305345 - detail : load_print_list
+2023-05-23 16:54:04,599 - root - INFO - UPDATE : 1234567890123456789012345678 - detail : CNT+1
+2023-05-23 16:54:04,600 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '99.99 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '1234567890123456789012345678'}
+2023-05-23 16:54:04,600 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 16:54:04,600 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 16:54:04,600 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-23 16:54:04,600 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-23 16:54:04,600 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-23 16:54:35,912 - root - INFO - UPDATE : 0003452305230086990138464771 - detail : CNT+1
+2023-05-23 16:54:35,912 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '86.99 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230086990138464771'}

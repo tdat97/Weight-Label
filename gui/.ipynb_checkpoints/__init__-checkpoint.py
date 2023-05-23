@@ -1,7 +1,7 @@
 from utils.logger import logger
 from utils.text import *
 from utils.value import ValueControl
-from utils.table import TableManager
+from utils.table import TableManager, NodbManager
 from utils.crypto import glance
 from utils.paper import PaperManager
 from utils import tool
@@ -69,7 +69,7 @@ class MainWindow(tk.Tk):
         self.measure_value = self.weight_value - self.bowl_value_control.real_value
         self.thr_lock = Lock()
         
-        # 시리얼 연결
+        # 중량계(시리얼) 연결
         try:
             self.my_serial = None
             port = self.setting_dic["serial_port"] if "serial_port" in self.setting_dic else "COM3"
@@ -79,9 +79,6 @@ class MainWindow(tk.Tk):
             logger.error(traceback.format_exc())
         
         # db 매니저
-        add_cols = ['boowi', 'parm_nm']
-        add_init = [' ', ' ']
-        self.db_con = None
         db_info_dir = self.setting_dic["db_info_dir"] if "db_info_dir" in self.setting_dic else "../DB_pair/dev"
         nodb = self.setting_dic["nodb"] if "nodb" in self.setting_dic else True
         try:
@@ -89,35 +86,41 @@ class MainWindow(tk.Tk):
             # DB 정보 가져오기
             db_info_path = os.path.join(db_info_dir, DB_INFO_FILE)
             key_path = os.path.join(db_info_dir, KEY_FILE)
-            db_info_str = glance(db_info_path, key_path)
-            db_info_dic = json.loads(db_info_str)
-            self.db_con = pymysql.connect(**db_info_dic, charset='utf8', autocommit=True)
-            self.table_mng = TableManager(self.db_con, SQL_DIR_PATH, NODB_PATH, add_cols=add_cols,add_init=add_init)
+            self.table_mng = TableManager(SQL_DIR_PATH, db_info_path, key_path)
         except JSONDecodeError:
             logger.warn("DB 정보 복호화 실패")
-            mb.showwarning(title="", message="DB 정보 복호화 실패\n테스트버전으로 전환")
-            self.table_mng = TableManager(None, SQL_DIR_PATH, NODB_PATH, add_cols=add_cols,add_init=add_init)
             logger.error(traceback.format_exc())
+            mb.showwarning(title="", message="DB 정보 복호화 실패\n테스트버전으로 전환")
+            self.table_mng = NodbManager()
         except:
             logger.warn("DB 로드 실패")
-            mb.showwarning(title="", message="DB 로드 실패...\n테스트 DB로 전환.")
-            self.table_mng = TableManager(None, SQL_DIR_PATH, NODB_PATH, add_cols=add_cols,add_init=add_init)
             logger.error(traceback.format_exc())
+            mb.showwarning(title="", message="DB 로드 실패...\n테스트 DB로 전환.")
+            self.table_mng = NodbManager()
         
-        # 두번째 테이블 생성
-        self.paper_keys = ["ITEM_CD", "ITEM_NM", "MFFART_RPT_NO", "boowi", "weight", "today", "EXPIRY_DT", 
-                           "BUTCHERY_NM", "PLOR_CD", "STRG_TYPE", "HIS_NO", ]
-        self.measure_keys = list(set(["ORDER_NO", "ORDER_DT", "ITEM_CD", "ITEM_NM", 
-                                      "weight", "HIS_NO", "number", *self.paper_keys]))
-        self.measure_table = pd.DataFrame([], columns=self.measure_keys)
+        # 라벨지에 들어가는 키
+        self.paper_keys = ["ITEM_CD", "ITEM_NM", "MFFART_RPT_NO", "BOX_WGT", "PRINT_DT", "EXPIRY_DT", 
+                           "BUTCHERY_NM", "PLOR_CD", "STRG_TYPE", "HIS_NO", "BOX_BARCODE"]
+        
+        # DB 인쇄목록에 들어가는 키
+        self.insert_keys = ['ORDER_NO', 'BOX_BARCODE', 'WLOT_NO', 'PRINT_CNT', 'PRINT_DT', 
+                            'BOX_IN_CNT', 'BOX_WGT', 'ITEM_CD', 'ITEM_NM', 'PLOR_CD']
+        
+        # self.table2_keys = list(set(["ORDER_NO", "ORDER_DT", "ITEM_CD", "ITEM_NM", "WLOT_NO",
+        #                               "BOX_WGT", "HIS_NO", "BOX_BARCODE", *self.paper_keys]))
+        
+        # 테이블 생성
+        self.table1 = pd.DataFrame([], columns=[])
+        self.table2 = pd.DataFrame([], columns=[])
         
         # 트리뷰 컬럼 정의
-        self.tree_cols1 = ["ITEM_NM", "PROD_QTY", "BOX_IN_CNT", "STRG_TYPE", "BUNDLE_NO", "parm_nm", "BUTCHERY_NM", ]
-        self.tree_cols2 = ["number", "ORDER_DT", "ITEM_CD", "ITEM_NM", "weight", "HIS_NO", ]
-        self.tree_colnames1 = ['품목명', '생산수량(BOX)', '입수수량', '보관유형', '묶음번호', '농가', '도축장명', ]
+        self.tree_cols1 = ["number", "ITEM_NM", "PROD_QTY", "BOX_IN_CNT", "STRG_TYPE", "BUNDLE_NO", 
+                           "BUTCHERY_NM", "ORDER_ST"]
+        self.tree_cols2 = ["number", "ORDER_DT", "ITEM_CD", "ITEM_NM", "BOX_WGT", "HIS_NO", ]
+        self.tree_colnames1 = ['순번', '품목명', '생산(BOX)', '입수수량', '보관유형', '묶음번호', '도축장명', '상태']
         self.tree_colnames2 = ['순번', '지시일', '품목코드', '품목명', '계량중량', '이력번호', ]
-        self.tree_widths1 = [0.15, 0.15, 0.10, 0.10, 0.20, 0.15, 0.15]
-        self.tree_widths2 = [0.10, 0.15, 0.15, 0.25, 0.15, 0.20]
+        self.tree_widths1 = [0.05, 0.30, 0.10, 0.10, 0.10, 0.15, 0.15, 0.05]
+        self.tree_widths2 = [0.05, 0.15, 0.10, 0.35, 0.10, 0.25]
         
         # GUI 적용 및 bind
         self.__configure()
@@ -140,6 +143,8 @@ class MainWindow(tk.Tk):
         
         
     #######################################################################
+    # 실행하자마자
+    
     def attach_logo(self):
         if self.logo_img_pil is None: return
         wh, ww = self.logo_label.winfo_height(), self.logo_label.winfo_width()
@@ -196,69 +201,11 @@ class MainWindow(tk.Tk):
         self.treeview1.column('PROD_QTY', anchor='e')
         self.treeview1.column('BOX_IN_CNT', anchor='e')
         self.treeview1.column('STRG_TYPE', anchor='center')
-        self.treeview2.column('weight', anchor='e')
-            
+        self.treeview2.column('BOX_WGT', anchor='e')
+        
     #######################################################################
-    def update_table(self, event=None):
-        logger.info(f"UPDATE : {self.cal.get_date()}")
-        
-        # DB 다시 가져오기
-        self.table_mng.excute_select(self.cal.get_date())
-        
-        # table1 수정
-        self.table_mng.df[["PROD_QTY", "BOX_IN_CNT"]] = self.table_mng.df[["PROD_QTY", "BOX_IN_CNT"]].astype(int)
-        self.table_mng.df.loc[:, "parm_nm"] = " "
-        
-        # 트리뷰 청소
-        for item_id in self.treeview1.get_children():
-            self.treeview1.delete(item_id)
-        
-        # 트리뷰 다시 채우기
-        cols = list(self.treeview1['columns'])
-        for i in range(len(self.table_mng.df)):
-            i = self.table_mng.df.iloc[i].name
-            self.treeview1.insert('', 'end', values=list(self.table_mng.df.loc[i, cols]))
-        
-        # 트리뷰 item_id를 df의 인덱스로
-        item_ids = self.treeview1.get_children()
-        assert len(self.table_mng.df.index) == len(item_ids)
-        self.table_mng.df.index = item_ids
+    # 인쇄버튼
     
-    def append_table2(self, item_id1, weight):
-        # 목록에 추가
-        for col in self.measure_table.columns:
-            if col in self.table_mng.df.columns:
-                self.measure_table.loc["temp", col] = self.table_mng.df.loc[item_id1, col]
-        
-        # treeview 빈 행 추가
-        item_id2 = self.treeview2.insert('', 'end')
-            
-        # 열 추가
-        # number, weight, today
-        self.measure_table.loc["temp", ["number", "weight", "today"]] = [item_id2, weight, self.cal.get_date()]
-        
-        # treeview 빈 행 수정
-        cols = list(self.treeview2['columns'])
-        self.treeview2.item(item_id2, values=list(self.measure_table.loc["temp", cols]))
-        
-        # 트리뷰 item_id를 df의 인덱스로
-        self.measure_table.rename(index={'temp':item_id2}, inplace=True)
-        
-    def clear_table2(self):
-        # 여부묻기
-        answer = mb.askquestion("모두지우기", "기록을 모두 지울까요?")
-        if answer == "no": return
-        
-        logger.info("CLEAR")
-        
-        # 트리뷰 청소
-        for item_id in self.treeview2.get_children():
-            self.treeview2.delete(item_id)
-        
-        # 테이블 청소
-        self.measure_table = pd.DataFrame([], columns=self.measure_table.columns)
-   
-    #######################################################################
     def submit(self):
         # 선택검사
         item_ids = self.treeview1.selection()
@@ -268,33 +215,91 @@ class MainWindow(tk.Tk):
         item_id1 = item_ids[0]
         
         # 선택행에서 원하는 값 찾기
-        row = list(self.treeview1.item(item_id1)['values'])
-        name = row[self.treeview1['columns'].index("ITEM_NM")]
+        item_nm = self.table1.loc[item_id1, 'ITEM_NM']
         
         # 여부묻기
         weight = self.measure_value
-        answer = mb.askquestion("인쇄하기", f"품목명 : {name}\n계량 : {weight} kg\n인쇄 할까요?")
+        answer = mb.askquestion("인쇄하기", f"품목명 : {item_nm}\n계량 : {weight} kg\n인쇄 할까요?")
         if answer == "no": return
     
         # 목록에 추가
         self.append_table2(item_id1, weight)
         
         # DB에 +1
-        order_no = self.table_mng.df.loc[item_id1, 'ORDER_NO']
-        self.table_mng.excute_update("GOOD_QTY", "+1", order_no)
-        self.table_mng.excute_update("PROD_QTY", "+1", order_no)
+        order_no = self.table1.loc[item_id1, 'ORDER_NO']
+        self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY+1", order_no)
+        self.table_mng.execute_update("table1", "PROD_QTY", "PROD_QTY+1", order_no)
+        logger.info(f"UPDATE : {order_no} - detail : QTY+1")
         
-        # table에 +1
-        self.table_mng.df.loc[item_id1, 'PROD_QTY'] += 1
+        # table1에 +1
+        self.table1.loc[item_id1, 'PROD_QTY'] += 1
         
         # 트리뷰1에 +1
-        idx = self.treeview1['columns'].index("PROD_QTY")
-        row[idx] = self.table_mng.df.loc[item_id1, 'PROD_QTY']
-        self.treeview1.item(item_id1, values=row)
+        cols = list(self.treeview1['columns'])
+        self.treeview1.item(item_id1, values=list(self.table1.loc[item_id1, cols]))
     
         # 마지막 행 인쇄
-        item_id2 = self.measure_table.iloc[-1].name
+        item_id2 = self.table2.iloc[-1].name
         self.print_label(item_id2)
+    
+    def append_table2(self, item_id1, weight):
+        # 목록에 추가
+        for col in self.table2.columns:
+            if col in self.table1.columns:
+                self.table2.loc["temp", col] = self.table1.loc[item_id1, col]
+        
+        # treeview 빈 행 추가
+        item_id2 = self.treeview2.insert('', 'end')
+            
+        # 열 추가
+        # number, weight, today
+        self.table2.loc["temp", ["number", "BOX_WGT", "PRINT_DT", "PRINT_CNT"]] = [item_id2, weight, self.cal.get_date(), 1]
+        
+        # 바코드 조합
+        item_cd, print_dt, box_wgt, strg_type = self.table2.loc['temp', ["ITEM_CD", "PRINT_DT", "BOX_WGT", "STRG_TYPE"]]
+        temp = "{:0>6}".format(item_cd[-6:]) # 품목코드
+        temp += "{:0>6}".format(re.sub('\-', '', str(print_dt))[-6:]) # 제조일자
+        temp += "{:0>6}".format(re.sub('\.', '', str(box_wgt))[-6:]) # 중량
+        temp += "{:0>2}".format(ddict(lambda:"01", {"F":"01", "C":"02"})[strg_type]) # 중량
+        temp += "{:0>8}".format(np.random.randint(0, 10**8))
+        self.table2.loc["temp", "BOX_BARCODE"] = temp
+        
+        # treeview2 빈 행 수정
+        cols = list(self.treeview2['columns'])
+        self.treeview2.item(item_id2, values=list(self.table2.loc["temp", cols]))
+        
+        # 테이블2 temp행의 인덱스를 트리뷰2 item_id
+        self.table2.rename(index={'temp':item_id2}, inplace=True)
+        
+        # db에 한줄 추가
+        self.table_mng.execute_insert('table2', *self.table2.loc[item_id2, self.insert_keys])
+        logger.info(f"INSERT : {self.table2.loc[item_id2, 'BOX_BARCODE']}")
+    
+    #######################################################################
+    # 지시종료 버튼
+    
+    def finish_order(self):
+        # 선택검사
+        item_ids = self.treeview1.selection()
+        if not item_ids:
+            mb.showwarning(title="", message="지시종료할 행을 선택해 주세요.")
+            return
+        item_id1 = item_ids[0]
+        
+        # DB에 적용
+        order_no = self.table1.loc[item_id1, "ORDER_NO"]
+        self.table_mng.execute_update("table1", "ORDER_ST", "'END'", order_no)
+        logger.info(f"UPDATE : {order_no} - detail : END")
+        
+        # table1에 적용
+        self.table1.loc[item_id1, "ORDER_ST"] = "종료"
+        
+        # 트리뷰1에 적용
+        cols = list(self.treeview1['columns'])
+        self.treeview1.item(item_id1, values=list(self.table1.loc[item_id1, cols]))
+    
+    #######################################################################
+    # 되돌리기 버튼
     
     def undo_append(self):
         # 선택검사
@@ -306,10 +311,10 @@ class MainWindow(tk.Tk):
         
     
         # ORDER_NO 가져오기
-        order_no = self.measure_table.loc[item_id2, 'ORDER_NO']
+        order_no = self.table2.loc[item_id2, 'ORDER_NO']
         
         # 테이블1에서 찾기
-        df = self.table_mng.df
+        df = self.table1
         item_ids = list(df[df["ORDER_NO"] == order_no].iloc[:1].index)
         if not item_ids: mb.showwarning(title="", message="지시목록에 일치하는 행이 없어요.\n지시일을 확인해 주세요.")
         item_id1 = item_ids[0]
@@ -319,26 +324,31 @@ class MainWindow(tk.Tk):
         answer = mb.askquestion("되돌리기", f"순번 : {item_id2}\n되돌릴까요?")
         if answer == "no": return
     
+        # DB에서 없애기
+        self.table_mng.execute_delete("table2", self.table2.loc[item_id2, "BOX_BARCODE"])
+        logger.info(f"DELETE : {self.table2.loc[item_id2, 'BOX_BARCODE']}")
+        
         # 테이블2에서 없애기
-        self.measure_table.drop(item_id2, inplace=True)
+        self.table2.drop(item_id2, inplace=True)
         
         # 트리뷰2에서 없애기
         self.treeview2.delete(item_id2)
         
         # 테이블1에서 -1
-        self.table_mng.df.loc[item_id1, 'PROD_QTY'] -= 1
+        self.table1.loc[item_id1, 'PROD_QTY'] -= 1
         
         # 트리뷰1에서 -1
-        row = list(self.treeview1.item(item_id1)['values'])
-        idx = self.treeview1['columns'].index("PROD_QTY")
-        row[idx] = self.table_mng.df.loc[item_id1, 'PROD_QTY']
-        self.treeview1.item(item_id1, values=row)
+        cols = list(self.treeview1['columns'])
+        self.treeview1.item(item_id1, values=list(self.table1.loc[item_id1, cols]))
         
         # DB에서 -1
-        self.table_mng.excute_update("GOOD_QTY", "-1", order_no)
-        self.table_mng.excute_update("PROD_QTY", "-1", order_no)
+        self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY-1", order_no)
+        self.table_mng.execute_update("table1", "PROD_QTY", "PROD_QTY-1", order_no)
+        logger.info(f"UPDATE : {order_no} - detail : QTY-1")
         
-        
+    #######################################################################
+    # 재인쇄 버튼
+    
     def resubmit(self):
         # 선택검사
         item_ids = self.treeview2.selection()
@@ -351,17 +361,23 @@ class MainWindow(tk.Tk):
         answer = mb.askquestion("인쇄하기", f"순번 : {item_id2}\n해당 라벨을 \n재인쇄 할까요?")
         if answer == "no": return
     
+        # table +1, DB +1
+        self.table2.loc[item_id2, "PRINT_CNT"] += 1
+        barcode = self.table2.loc[item_id2, "BOX_BARCODE"]
+        self.table_mng.execute_update("table2", "PRINT_CNT", "PRINT_CNT+1", barcode)
+        logger.info(f"UPDATE : {barcode} - detail : CNT+1")
+    
         # 인쇄
         self.print_label(item_id2)
     
     def print_label(self, item_id2):
         # 계량목록 테이블에서 값 가져오기
-        paper_info = self.measure_table.loc[item_id2, self.paper_keys].values
+        paper_info = self.table2.loc[item_id2, self.paper_keys].values
         
         # 데이터 수정
         paper_dic = dict(zip(self.paper_keys, paper_info))
         paper_dic = self.edit_data(paper_dic)
-        logger.info(f"PRINT : {paper_dic}")
+        logger.info(f"paper_dic : {paper_dic}")
         
         # 이미지 만들기
         pix = self.setting_dic['n_pixel']
@@ -377,13 +393,6 @@ class MainWindow(tk.Tk):
     def edit_data(self, paper_dic):
         for key in paper_dic:
             paper_dic[key] = str(paper_dic[key])
-            
-        temp = "{:0>6}".format(paper_dic["ITEM_CD"][-6:]) # 품목코드
-        temp += "{:0>6}".format(re.sub('\-', '', paper_dic["today"])[-6:]) # 제조일자
-        temp += "{:0>6}".format(re.sub('\.', '', paper_dic["weight"])[-6:]) # 중량
-        temp += "{:0>2}".format(ddict(lambda:"01", {"F":"01", "C":"02"})[paper_dic["STRG_TYPE"]]) # 중량
-        temp += "{:0>8}".format(np.random.randint(0, 10**8))
-        paper_dic['bar1'] = temp
         
         # KOR -> 국내산
         dic = {'KOR':'국내산', 'AUS':'호주산', 'FRG':'미국산'}
@@ -395,8 +404,8 @@ class MainWindow(tk.Tk):
         dic = ddict(lambda:'-18℃ 이하 냉동보관', dic)
         paper_dic['STRG_TYPE'] = dic[paper_dic['STRG_TYPE']]
         
-        # weight -> kg
-        paper_dic['weight'] = paper_dic['weight'] + " kg"
+        # BOX_WGT -> kg
+        paper_dic['BOX_WGT'] = paper_dic['BOX_WGT'] + " kg"
         
         return paper_dic
     
@@ -410,9 +419,9 @@ class MainWindow(tk.Tk):
         paper_mng.reset()
         paper_mng.attach(paper_dic["ITEM_NM"], "제품명", barcode=False)
         paper_mng.attach(paper_dic["MFFART_RPT_NO"], "품목제조번호", barcode=False)
-        paper_mng.attach(paper_dic["boowi"], "부위명", barcode=False)
-        paper_mng.attach(paper_dic["weight"], "중량", barcode=False)
-        paper_mng.attach(paper_dic["today"], "제조일자", barcode=False)
+        # paper_mng.attach(paper_dic["boowi"], "부위명", barcode=False)
+        paper_mng.attach(paper_dic["BOX_WGT"], "중량", barcode=False)
+        paper_mng.attach(paper_dic["PRINT_DT"], "제조일자", barcode=False)
         paper_mng.attach(paper_dic["EXPIRY_DT"], "유통기한", barcode=False)
         paper_mng.attach(paper_dic["BUTCHERY_NM"], "도축장", barcode=False)
         paper_mng.attach(paper_dic["PLOR_CD"], "원산지", barcode=False)
@@ -421,17 +430,19 @@ class MainWindow(tk.Tk):
         paper_mng.attach("L12301305239001", "이력묶음번호", barcode=True, options=options)
         # paper_mng.attach(paper_dic["HIS_NO"], "이력묶음번호", barcode=True, options=options)
         options = {'module_width': 0.4, 'module_height': 10}
-        paper_mng.attach(paper_dic["bar1"], "바코드1", barcode=True, rotate_num=3, options=options)
+        paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드1", barcode=True, rotate_num=3, options=options)
         options = {'module_width': 0.4, 'module_height': 10}
-        paper_mng.attach(paper_dic["bar1"], "바코드2", barcode=True, rotate_num=3, options=options)
+        paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드2", barcode=True, rotate_num=3, options=options)
         options = {'module_width': 0.4, 'module_height': 10}
-        paper_mng.attach(paper_dic["bar1"], "바코드3", barcode=True, rotate_num=3, options=options)
+        paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드3", barcode=True, rotate_num=3, options=options)
         options = {'module_width': 0.4, 'module_height': 10}
-        paper_mng.attach(paper_dic["bar1"], "바코드4", barcode=True, rotate_num=3, options=options)
+        paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드4", barcode=True, rotate_num=3, options=options)
         
         return paper_mng.get_img()
     
     #######################################################################
+    # 숫자버튼, 변환버튼, 종료버튼
+    
     def input_pin(self, v):
         assert type(v) is str
         self.bowl_value_control.input_cmd(v)
@@ -450,8 +461,77 @@ class MainWindow(tk.Tk):
         Thread(target=self.termination, args=(), daemon=True).start()
         
     #######################################################################
+    # 바인드 : 조회, 인쇄목록
+    
+    def update_table(self, event=None):
+        # DB 다시 가져오기
+        self.table1 = self.table_mng.execute_select("table1", self.cal.get_date())
+        logger.info(f"SELECT : {self.cal.get_date()}")
+        self.table2 = pd.DataFrame([], columns=self.table2.columns)
+        
+        # table1 수정
+        self.table1[["PROD_QTY", "BOX_IN_CNT"]] = self.table1[["PROD_QTY", "BOX_IN_CNT"]].astype(int)
+        dic = ddict(lambda:"대기", {"ORDER":"대기", "RUN":"가동", "END":"종료"})
+        self.table1["ORDER_ST"] = list(map(lambda x:dic[x], self.table1["ORDER_ST"]))
+        
+        # 트리뷰1 청소
+        for item_id in self.treeview1.get_children():
+            self.treeview1.delete(item_id)
+            
+        # 트리뷰2 청소
+        for item_id in self.treeview2.get_children():
+            self.treeview2.delete(item_id)
+            
+        # 빈 행들 추가하면서 테이블1 열 추가
+        for idx in self.table1.index:
+            item_id1 = self.treeview1.insert('', 'end')
+            self.table1.loc[idx, 'number'] = item_id1
+        
+        # 트리뷰1 item_id를 df의 인덱스로
+        self.table1.index = self.treeview1.get_children()
+        
+        # 테이블1에서 트리뷰1
+        cols = list(self.treeview1['columns'])
+        for item_id1 in self.treeview1.get_children():
+            self.treeview1.item(item_id1, values=list(self.table1.loc[item_id1, cols]))
+        
+    def load_print_list(self, event):
+        # 선택 검사 ( 그럴리는 없겠지만 )
+        temp = self.treeview1.selection()
+        if not temp: return
+    
+        # 트리뷰1에서 지시번호 가져오기
+        item_id1 = temp[0]
+        order_no = self.table1.loc[item_id1, 'ORDER_NO']
+        # row = list(self.treeview1.item(item_id1)['values'])
+        # idx = self.treeview1['columns'].index("ORDER_NO")
+        # order_no = row[idx]
+        
+        # DB에서 테이블2
+        self.table2 = self.table_mng.execute_select('table2', order_no)
+        logger.info(f"SELECT : {order_no} - detail : load_print_list")
+        self.table2.rename(columns={'LOT_NO':'WLOT_NO'}, inplace=True)
+        
+        # 트리뷰2 청소
+        for item_id in self.treeview2.get_children():
+            self.treeview2.delete(item_id)
+            
+        # 빈 행들 추가하면서 테이블2 열 추가
+        for idx in self.table2.index:
+            item_id2 = self.treeview2.insert('', 'end')
+            self.table2.loc[idx, 'number'] = item_id2
+        
+        # 트리뷰2 item_id를 df의 인덱스로
+        self.table2.index = self.treeview2.get_children()
+        
+        # 테이블2에서 트리뷰2
+        cols = list(self.treeview2['columns'])
+        for item_id2 in self.treeview2.get_children():
+            self.treeview2.item(item_id2, values=list(self.table2.loc[item_id2, cols]))
+        
     def set_bind(self):
         self.cal.bind("<<DateEntrySelected>>", self.update_table)
+        self.treeview1.bind("<<TreeviewSelect>>", self.load_print_list)
     
     #######################################################################
     def __configure(self):
@@ -529,6 +609,12 @@ class MainWindow(tk.Tk):
         self.temp.place(relx=0.0, rely=0.0, relwidth=0.3, relheight=0.1)
         self.temp['font'] = font.Font(family='Helvetica', size=int(30*self.win_factor), weight='bold')
         
+        # 좌상단테이블프레임 - 버튼
+        self.finish_btn = tk.Button(self.top_left_frame, text="지시종료", command=self.finish_order)
+        self.finish_btn.place(relx=0.9, rely=0.0, relwidth=0.1, relheight=0.1)
+        self.finish_btn['font'] = font.Font(family='Helvetica', size=int(20*self.win_factor), weight='bold')
+        self.finish_btn.configure(bg="#333", fg="#fff", activebackground="#fff", activeforeground="#333")
+        
         # 좌상단테이블프레임 - 트리뷰
         self.treeview1 = ttk.Treeview(self.top_left_frame, style="my.Treeview")
         self.treeview1['columns'] = self.tree_cols1
@@ -543,8 +629,8 @@ class MainWindow(tk.Tk):
         self.treeview1.configure(yscrollcommand=self.scrollbar1.set)
         
         # test
-        for i in range(100):
-            aa = self.treeview1.insert("", "end", values=[f"test{i:02d}"]*len(self.tree_cols1))
+        # for i in range(100):
+        #     aa = self.treeview1.insert("", "end", values=[f"test{i:02d}"]*len(self.tree_cols1))
             
         
         
@@ -559,13 +645,9 @@ class MainWindow(tk.Tk):
         
         # 좌하단테이블프레임 - 버튼
         self.undo_btn = tk.Button(self.bot_left_frame, text="되돌리기", command=self.undo_append)
-        self.undo_btn.place(relx=0.7, rely=0.0, relwidth=0.1, relheight=0.1)
+        self.undo_btn.place(relx=0.8, rely=0.0, relwidth=0.1, relheight=0.1)
         self.undo_btn['font'] = font.Font(family='Helvetica', size=int(20*self.win_factor), weight='bold')
         self.undo_btn.configure(bg="#333", fg="#fff", activebackground="#fff", activeforeground="#333")
-        self.reset_btn = tk.Button(self.bot_left_frame, text="모두지우기", command=self.clear_table2)
-        self.reset_btn.place(relx=0.8, rely=0.0, relwidth=0.1, relheight=0.1)
-        self.reset_btn['font'] = font.Font(family='Helvetica', size=int(20*self.win_factor), weight='bold')
-        self.reset_btn.configure(bg="#333", fg="#fff", activebackground="#fff", activeforeground="#333")
         self.reprint_btn = tk.Button(self.bot_left_frame, text="재인쇄", command=self.resubmit)
         self.reprint_btn.place(relx=0.9, rely=0.0, relwidth=0.1, relheight=0.1)
         self.reprint_btn['font'] = font.Font(family='Helvetica', size=int(20*self.win_factor), weight='bold')
@@ -578,7 +660,7 @@ class MainWindow(tk.Tk):
         self.treeview2.place(relx=0.0, rely=0.1, relwidth=0.95, relheight=0.9)
         for col, name in zip(self.treeview2['columns'], self.tree_colnames2):
             self.treeview2.heading(col, text=name)
-        self.treeview2.column('weight', anchor='e')
+        self.treeview2.column('BOX_WGT', anchor='e')
         
         # 좌하단테이블프레임 - 스크롤
         self.scrollbar2 = tk.Scrollbar(self.bot_left_frame, orient="vertical", command=self.treeview2.yview)

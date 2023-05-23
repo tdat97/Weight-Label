@@ -4,7 +4,7 @@
 
   ,"real_print" : false
 
-  ,"nodb" : true
+  ,"nodb" : false
 
   ,"db_info_dir" : "../DB_pair/paeckdu/smhDev02"
 

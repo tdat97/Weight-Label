@@ -1,6 +1,7 @@
+from utils.crypto import glance
 import pandas as pd
+import pymysql
 import json
-import time
 import os
 
 import warnings
@@ -8,57 +9,52 @@ warnings.filterwarnings('ignore')
 
 
 class TableManager():
-    def __init__(self, db_con, sql_dir_path, nodb_path, add_cols=[], add_init=[]):
-        assert len(add_cols) == len(add_init)
-        self.add_cols = add_cols
-        self.add_init = add_init
-        self.db_con = db_con
-        self.nodb_path = nodb_path
+    def __init__(self, sql_dir_path, db_info_path, key_path=None):
+        self.sql_dir_path = sql_dir_path
+        db_info_str = glance(db_info_path, key_path)
+        db_info_dic = json.loads(db_info_str)
+        self.db_con = pymysql.connect(**db_info_dic, charset='utf8', autocommit=True)
         
-        # sql 가져오기
-        with open(os.path.join(sql_dir_path, "select.txt"), 'r') as f:
-            self.select_sql = f.read()
-        with open(os.path.join(sql_dir_path, "insert.txt"), 'r') as f:
-            self.insert_sql = f.read()
-        with open(os.path.join(sql_dir_path, "update.txt"), 'r') as f:
-            self.update_sql = f.read()
+    def execute_select(self, detail_dir, *args, csv_path=None):
+        with open(os.path.join(self.sql_dir_path, detail_dir, "select.txt"), 'r') as f:
+            sql = f.read()
         
-        # 테이블
-        self.df = None
-        
-    def excute_select(self, date):
-        # 이전 df 저장
-        old_df = self.df
-        
-        
-        # DB 읽기
-        sql = self.select_sql.format(date)
-        if self.db_con is None:
-            self.df = pd.read_csv(self.nodb_path, encoding='cp949')
-        else:
-            self.df = pd.read_sql(sql, self.db_con)
+        sql = sql.format(*args)
+        df = pd.read_sql(sql, self.db_con)
+        return df
+                  
+    def execute_update(self, detail_dir, *args):
+        with open(os.path.join(self.sql_dir_path, detail_dir, "update.txt"), 'r') as f:
+            sql = f.read()
             
-        # 미분류 행추가
-        # temp = pd.DataFrame([['NONE', '']], columns=['ITEM_CD', 'ITEM_NM'])
-        # self.df = pd.concat([df, temp], axis=0, ignore_index=True)
-                
-    
-        # 열추가
-        for col, v in zip(self.add_cols, self.add_init):
-            self.df[col] = v
-        if old_df is None or not self.add_cols:
-            return
-        
-        # 열 옮기기
-        for row in old_df.iloc:
-            # 첫번째 열이 key라 가정
-            idxs = self.df[self.df.iloc[:,0] == row[0]].index
-            if len(idxs):
-                idx = idxs[0]
-                self.df.loc[idx] = row
-                
-    def excute_update(self, col, formula, order_no):
-        if self.db_con is None: return
-        sql = self.update_sql.format(col, formula, order_no)
+        sql = sql.format(*args)
         cur = self.db_con.cursor()
         cur.execute(sql)
+        
+    def execute_insert(self, detail_dir, *args):
+        with open(os.path.join(self.sql_dir_path, detail_dir, "insert.txt"), 'r') as f:
+            sql = f.read()
+            
+        sql = sql.format(*args)
+        cur = self.db_con.cursor()
+        cur.execute(sql)
+        
+    def execute_delete(self, detail_dir, *args):
+        with open(os.path.join(self.sql_dir_path, detail_dir, "delete.txt"), 'r') as f:
+            sql = f.read()
+            
+        sql = sql.format(*args)
+        cur = self.db_con.cursor()
+        cur.execute(sql)
+        
+    
+class NodbManager():
+    def execute_select(self, *args, csv_path=None):
+        df = pd.read_csv(csv_path, encoding='cp949')
+        return df
+    
+    def execute_update(self, *args):
+        pass
+    
+    def execute_insert(self, *args):
+        pass
