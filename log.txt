@@ -1490,3 +1490,249 @@ Exception: NoDB mode.
 2023-05-23 16:54:04,600 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
 2023-05-23 16:54:35,912 - root - INFO - UPDATE : 0003452305230086990138464771 - detail : CNT+1
 2023-05-23 16:54:35,912 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '비싼삼겹살', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '86.99 kg', 'PRINT_DT': '2023-05-23', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': '도축장1', 'PLOR_CD': '국내산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452305230086990138464771'}
+2023-05-23 17:20:01,586 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 17:20:01,586 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 17:20:02,048 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 17:20:02,048 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 17:20:02,048 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 17:20:02,348 - root - INFO - SELECT : 2023-05-23
+2023-05-23 17:20:16,010 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 17:20:16,010 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 17:20:16,427 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 17:20:16,427 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 17:20:16,428 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 17:20:16,468 - root - WARNING - DB 로드 실패
+2023-05-23 17:20:16,469 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 85, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-23 17:20:17,438 - root - INFO - SELECT : 2023-05-23
+2023-05-23 17:21:32,769 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 17:21:32,770 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 17:21:33,203 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 17:21:33,203 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 17:21:33,204 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 17:21:33,245 - root - WARNING - DB 로드 실패
+2023-05-23 17:21:33,245 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 85, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-23 17:21:34,265 - root - INFO - SELECT : 2023-05-23
+2023-05-23 17:21:59,695 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 17:21:59,695 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 17:22:00,150 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 17:22:00,150 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 17:22:00,150 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 17:22:00,188 - root - WARNING - DB 로드 실패
+2023-05-23 17:22:00,188 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 85, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-23 17:22:00,874 - root - INFO - SELECT : 2023-05-23
+2023-05-23 17:22:05,394 - root - INFO - SELECT : WO0001 - detail : load_print_list
+2023-05-23 17:23:01,657 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 17:23:01,657 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 17:23:02,078 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 17:23:02,078 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 17:23:02,079 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 17:23:02,113 - root - WARNING - DB 로드 실패
+2023-05-23 17:23:02,114 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 85, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-23 17:23:02,776 - root - INFO - SELECT : 2023-05-23
+2023-05-23 17:23:48,150 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 17:23:48,150 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 17:23:48,566 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 17:23:48,566 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 17:23:48,566 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 17:23:48,602 - root - WARNING - DB 로드 실패
+2023-05-23 17:23:48,603 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 85, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-23 17:23:49,590 - root - INFO - SELECT : 2023-05-23
+2023-05-23 17:23:51,539 - root - INFO - SELECT : WO0021 - detail : load_print_list
+2023-05-23 17:23:55,242 - root - INFO - SELECT : WO0013 - detail : load_print_list
+2023-05-23 17:23:55,891 - root - INFO - SELECT : WO0012 - detail : load_print_list
+2023-05-23 17:23:56,342 - root - INFO - SELECT : WO0011 - detail : load_print_list
+2023-05-23 17:25:18,513 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 17:25:18,513 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 17:25:18,932 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 17:25:18,932 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 17:25:18,933 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 17:25:18,973 - root - WARNING - DB 로드 실패
+2023-05-23 17:25:18,973 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 85, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-23 17:25:19,640 - root - INFO - SELECT : 2023-05-23
+2023-05-23 17:25:20,934 - root - INFO - SELECT : WO0021 - detail : load_print_list
+2023-05-23 17:25:51,422 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-23 17:25:51,423 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-23 17:25:51,843 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-23 17:25:51,843 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-23 17:25:51,843 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-23 17:25:51,884 - root - WARNING - DB 로드 실패
+2023-05-23 17:25:51,884 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 85, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-23 17:25:52,553 - root - INFO - SELECT : 2023-05-23
+2023-05-23 17:25:53,131 - root - INFO - SELECT : WO0021 - detail : load_print_list
+2023-05-24 10:05:37,588 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-24 10:05:37,588 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-24 10:05:45,883 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-24 10:05:45,883 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-24 10:05:46,531 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-24 10:05:46,531 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-24 10:05:46,532 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-24 10:05:46,569 - root - WARNING - DB 로드 실패
+2023-05-24 10:05:46,569 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 84, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-24 10:06:21,917 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-24 10:06:21,917 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-24 10:06:22,343 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-24 10:06:22,343 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-24 10:06:22,344 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-24 10:06:22,384 - root - WARNING - DB 로드 실패
+2023-05-24 10:06:22,384 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 84, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-24 10:06:23,371 - root - INFO - function : update_table
+2023-05-24 10:06:23,374 - root - ERROR - DB error : table1 select
+2023-05-24 10:06:23,374 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 517, in update_table
+    self.table1 = self.table_mng.execute_select("table1", self.cal.get_date())
+AttributeError: 'NoneType' object has no attribute 'execute_select'
+
+2023-05-24 10:06:48,219 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-05-24 10:06:48,219 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-05-24 10:06:48,636 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-24 10:06:48,642 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-24 10:06:48,642 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-05-24 10:06:48,678 - root - WARNING - DB 로드 실패
+2023-05-24 10:06:48,679 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 84, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-05-24 10:06:49,261 - root - INFO - function : update_table
+2023-05-24 10:06:49,263 - root - ERROR - DB error : table1 select
+2023-05-24 10:06:49,263 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 517, in update_table
+    self.table1 = self.table_mng.execute_select("table1", self.cal.get_date())
+AttributeError: 'NoneType' object has no attribute 'execute_select'
+
+2023-05-24 10:07:51,039 - root - INFO - function : load_print_list
+2023-05-24 10:07:51,039 - root - WARNING - DB error : table2 select
+2023-05-24 10:07:51,039 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 570, in load_print_list
+    self.table2 = self.table_mng.execute_select('table2', order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_select'
+
+2023-05-24 10:07:55,156 - root - INFO - function : submit 
+2023-05-24 10:07:56,689 - root - INFO - function : append_table2
+2023-05-24 10:07:56,691 - root - ERROR - DB error : table2 insert
+2023-05-24 10:07:56,692 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 290, in append_table2
+    self.table_mng.execute_insert('table2', *self.table2.loc[item_id2, self.insert_keys])
+AttributeError: 'NoneType' object has no attribute 'execute_insert'
+
+2023-05-24 10:07:56,692 - root - ERROR - DB error : table1 update
+2023-05-24 10:07:56,692 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 239, in submit
+    self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY+1", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-05-24 10:07:56,693 - root - INFO - paper_dic : {'ITEM_CD': 'PR0007', 'ITEM_NM': 'test_unn7', 'MFFART_RPT_NO': 'm123456', 'BOX_WGT': '86.65 kg', 'PRINT_DT': '2023-05-24', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장3)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'BOX_BARCODE': 'PR00072305240086650188011467'}
+2023-05-24 10:07:56,694 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-05-24 10:07:56,694 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-05-24 10:07:56,694 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-05-24 10:07:56,694 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-05-24 10:07:56,694 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-05-24 10:08:11,100 - root - INFO - function : resubmit
+2023-05-24 10:08:11,946 - root - ERROR - DB error : table2 update
+2023-05-24 10:08:11,946 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 410, in resubmit
+    self.table_mng.execute_update("table2", "PRINT_CNT", "PRINT_CNT+1", barcode)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-05-24 10:08:11,947 - root - INFO - paper_dic : {'ITEM_CD': 'PR0007', 'ITEM_NM': 'test_unn7', 'MFFART_RPT_NO': 'm123456', 'BOX_WGT': '86.65 kg', 'PRINT_DT': '2023-05-24', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장3)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'BOX_BARCODE': 'PR00072305240086650188011467'}
+2023-05-24 10:08:46,837 - root - INFO - function : undo_append
+2023-05-24 10:08:48,499 - root - ERROR - DB error : table2 delete
+2023-05-24 10:08:48,500 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 359, in undo_append
+    self.table_mng.execute_delete("table2", self.table2.loc[item_id2, "BOX_BARCODE"])
+AttributeError: 'NoneType' object has no attribute 'execute_delete'
+
+2023-05-24 10:08:48,501 - root - ERROR - DB error : table1 update
+2023-05-24 10:08:48,501 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 380, in undo_append
+    self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY-1", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-05-24 10:08:52,061 - root - INFO - function : submit 
+2023-05-24 10:08:53,263 - root - INFO - function : append_table2
+2023-05-24 10:08:53,266 - root - ERROR - DB error : table2 insert
+2023-05-24 10:08:53,266 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 290, in append_table2
+    self.table_mng.execute_insert('table2', *self.table2.loc[item_id2, self.insert_keys])
+AttributeError: 'NoneType' object has no attribute 'execute_insert'
+
+2023-05-24 10:08:53,266 - root - ERROR - DB error : table1 update
+2023-05-24 10:08:53,266 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 239, in submit
+    self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY+1", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-05-24 10:08:53,267 - root - INFO - paper_dic : {'ITEM_CD': 'PR0007', 'ITEM_NM': 'test_unn7', 'MFFART_RPT_NO': 'm123456', 'BOX_WGT': '61.53 kg', 'PRINT_DT': '2023-05-24', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장3)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'BOX_BARCODE': 'PR00072305240061530164285137'}
+2023-05-24 10:08:54,710 - root - INFO - function : submit 
+2023-05-24 10:08:55,948 - root - INFO - function : append_table2
+2023-05-24 10:08:55,952 - root - ERROR - DB error : table2 insert
+2023-05-24 10:08:55,952 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 290, in append_table2
+    self.table_mng.execute_insert('table2', *self.table2.loc[item_id2, self.insert_keys])
+AttributeError: 'NoneType' object has no attribute 'execute_insert'
+
+2023-05-24 10:08:55,952 - root - ERROR - DB error : table1 update
+2023-05-24 10:08:55,952 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 239, in submit
+    self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY+1", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-05-24 10:08:55,953 - root - INFO - paper_dic : {'ITEM_CD': 'PR0007', 'ITEM_NM': 'test_unn7', 'MFFART_RPT_NO': 'm123456', 'BOX_WGT': '42.26 kg', 'PRINT_DT': '2023-05-24', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장3)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'BOX_BARCODE': 'PR00072305240042260131218127'}
+2023-05-24 10:09:00,638 - root - INFO - function : resubmit
+2023-05-24 10:09:02,303 - root - ERROR - DB error : table2 update
+2023-05-24 10:09:02,304 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 410, in resubmit
+    self.table_mng.execute_update("table2", "PRINT_CNT", "PRINT_CNT+1", barcode)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-05-24 10:09:02,305 - root - INFO - paper_dic : {'ITEM_CD': 'PR0007', 'ITEM_NM': 'test_unn7', 'MFFART_RPT_NO': 'm123456', 'BOX_WGT': '61.53 kg', 'PRINT_DT': '2023-05-24', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(도축장3)', 'PLOR_CD': '호주산', 'STRG_TYPE': '-18℃ 이하 냉동보관', 'HIS_NO': 'SK2302021', 'BOX_BARCODE': 'PR00072305240061530164285137'}
+2023-05-24 10:09:08,187 - root - INFO - function : load_print_list
+2023-05-24 10:09:08,188 - root - WARNING - DB error : table2 select
+2023-05-24 10:09:08,189 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 570, in load_print_list
+    self.table2 = self.table_mng.execute_select('table2', order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_select'
+
+2023-05-24 10:09:11,242 - root - INFO - function : update_table
+2023-05-24 10:09:11,245 - root - ERROR - DB error : table1 select
+2023-05-24 10:09:11,245 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 517, in update_table
+    self.table1 = self.table_mng.execute_select("table1", self.cal.get_date())
+AttributeError: 'NoneType' object has no attribute 'execute_select'
+

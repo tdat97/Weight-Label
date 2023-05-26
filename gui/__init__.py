@@ -1,11 +1,10 @@
 from utils.logger import logger
 from utils.text import *
 from utils.value import ValueControl
-from utils.table import TableManager, NodbManager
+from utils.table import TableManager
 from utils.crypto import glance
 from utils.paper import PaperManager
 from utils import tool
-
 
 import tkinter as tk
 import tkinter.ttk as ttk
@@ -91,12 +90,12 @@ class MainWindow(tk.Tk):
             logger.warn("DB 정보 복호화 실패")
             logger.error(traceback.format_exc())
             mb.showwarning(title="", message="DB 정보 복호화 실패\n테스트버전으로 전환")
-            self.table_mng = NodbManager()
+            self.table_mng = None
         except:
             logger.warn("DB 로드 실패")
             logger.error(traceback.format_exc())
             mb.showwarning(title="", message="DB 로드 실패...\n테스트 DB로 전환.")
-            self.table_mng = NodbManager()
+            self.table_mng = None
         
         # 라벨지에 들어가는 키
         self.paper_keys = ["ITEM_CD", "ITEM_NM", "MFFART_RPT_NO", "BOX_WGT", "PRINT_DT", "EXPIRY_DT", 
@@ -106,12 +105,19 @@ class MainWindow(tk.Tk):
         self.insert_keys = ['ORDER_NO', 'BOX_BARCODE', 'WLOT_NO', 'PRINT_CNT', 'PRINT_DT', 
                             'BOX_IN_CNT', 'BOX_WGT', 'ITEM_CD', 'ITEM_NM', 'PLOR_CD']
         
-        # self.table2_keys = list(set(["ORDER_NO", "ORDER_DT", "ITEM_CD", "ITEM_NM", "WLOT_NO",
-        #                               "BOX_WGT", "HIS_NO", "BOX_BARCODE", *self.paper_keys]))
+        
+        
+        self.table1_keys = ["number", "ORDER_NO", "ORDER_DT", "EXPIRY_DT", "HIS_NO", "PROD_QTY", "ORDER_ST", "WLOT_NO", 
+                            'ITEM_CD', 'ITEM_NM', "MFFART_RPT_NO", 'BOX_IN_CNT', 'PLOR_CD', "STRG_TYPE", "BUNDLE_NO",
+                            "BUTCHERY_NM", ]
+        
+        self.table2_keys = ["number", "ORDER_NO", "BOX_BARCODE", "WLOT_NO", 'PRINT_CNT', 'PRINT_DT',
+                            'BOX_IN_CNT', 'BOX_WGT', 'ITEM_CD', 'ITEM_NM', 'PLOR_CD', "MFFART_RPT_NO", "STRG_TYPE", 
+                            "EXPIRY_DT", "HIS_NO", "ORDER_DT", "BUTCHERY_NM", ]
         
         # 테이블 생성
-        self.table1 = pd.DataFrame([], columns=[])
-        self.table2 = pd.DataFrame([], columns=[])
+        self.table1 = pd.DataFrame([], columns=self.table1_keys)
+        self.table2 = pd.DataFrame([], columns=self.table2_keys)
         
         # 트리뷰 컬럼 정의
         self.tree_cols1 = ["number", "ITEM_NM", "PROD_QTY", "BOX_IN_CNT", "STRG_TYPE", "BUNDLE_NO", 
@@ -126,12 +132,8 @@ class MainWindow(tk.Tk):
         self.__configure()
         self.set_bind()
         
-        # DB 가져오기
+        # DB -> table1
         self.update_table()
-        
-        # 트리뷰2 청소
-        # for item_id in self.treeview2.get_children():
-        #     self.treeview2.delete(item_id)
         
         # 쓰레드 실행
         self.stop_signal = False
@@ -207,6 +209,8 @@ class MainWindow(tk.Tk):
     # 인쇄버튼
     
     def submit(self):
+        logger.info('function : submit ')
+        
         # 선택검사
         item_ids = self.treeview1.selection()
         if not item_ids:
@@ -226,10 +230,14 @@ class MainWindow(tk.Tk):
         self.append_table2(item_id1, weight)
         
         # DB에 +1
-        order_no = self.table1.loc[item_id1, 'ORDER_NO']
-        self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY+1", order_no)
-        self.table_mng.execute_update("table1", "PROD_QTY", "PROD_QTY+1", order_no)
-        logger.info(f"UPDATE : {order_no} - detail : QTY+1")
+        try:
+            order_no = self.table1.loc[item_id1, 'ORDER_NO']
+            self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY+1", order_no)
+            self.table_mng.execute_update("table1", "PROD_QTY", "PROD_QTY+1", order_no)
+            logger.info(f"UPDATE : {order_no} - detail : QTY+1")
+        except:
+            logger.error("DB error : table1 update")
+            logger.error(traceback.format_exc())
         
         # table1에 +1
         self.table1.loc[item_id1, 'PROD_QTY'] += 1
@@ -243,6 +251,8 @@ class MainWindow(tk.Tk):
         self.print_label(item_id2)
     
     def append_table2(self, item_id1, weight):
+        logger.info('function : append_table2')
+        
         # 목록에 추가
         for col in self.table2.columns:
             if col in self.table1.columns:
@@ -272,13 +282,19 @@ class MainWindow(tk.Tk):
         self.table2.rename(index={'temp':item_id2}, inplace=True)
         
         # db에 한줄 추가
-        self.table_mng.execute_insert('table2', *self.table2.loc[item_id2, self.insert_keys])
-        logger.info(f"INSERT : {self.table2.loc[item_id2, 'BOX_BARCODE']}")
+        try:
+            self.table_mng.execute_insert('table2', *self.table2.loc[item_id2, self.insert_keys])
+            logger.info(f"INSERT : {self.table2.loc[item_id2, 'BOX_BARCODE']}")
+        except:
+            logger.error("DB error : table2 insert")
+            logger.error(traceback.format_exc())
     
     #######################################################################
     # 지시종료 버튼
     
     def finish_order(self):
+        logger.info('function : finish_order')
+        
         # 선택검사
         item_ids = self.treeview1.selection()
         if not item_ids:
@@ -286,10 +302,19 @@ class MainWindow(tk.Tk):
             return
         item_id1 = item_ids[0]
         
+        # 여부묻기
+        weight = self.measure_value
+        answer = mb.askquestion("지시종료", f"순번 : {item_id1}\n종료할까요?")
+        if answer == "no": return
+        
         # DB에 적용
-        order_no = self.table1.loc[item_id1, "ORDER_NO"]
-        self.table_mng.execute_update("table1", "ORDER_ST", "'END'", order_no)
-        logger.info(f"UPDATE : {order_no} - detail : END")
+        try:
+            order_no = self.table1.loc[item_id1, "ORDER_NO"]
+            self.table_mng.execute_update("table1", "ORDER_ST", "'END'", order_no)
+            logger.info(f"UPDATE : {order_no} - detail : END")
+        except:
+            logger.error("DB error : table1 update")
+            logger.error(traceback.format_exc())
         
         # table1에 적용
         self.table1.loc[item_id1, "ORDER_ST"] = "종료"
@@ -302,13 +327,14 @@ class MainWindow(tk.Tk):
     # 되돌리기 버튼
     
     def undo_append(self):
+        logger.info('function : undo_append')
+        
         # 선택검사
         item_ids = self.treeview2.selection()
         if not item_ids:
             mb.showwarning(title="", message="되돌릴 행을 선택해 주세요.")
             return
         item_id2 = item_ids[0]
-        
     
         # ORDER_NO 가져오기
         order_no = self.table2.loc[item_id2, 'ORDER_NO']
@@ -325,8 +351,12 @@ class MainWindow(tk.Tk):
         if answer == "no": return
     
         # DB에서 없애기
-        self.table_mng.execute_delete("table2", self.table2.loc[item_id2, "BOX_BARCODE"])
-        logger.info(f"DELETE : {self.table2.loc[item_id2, 'BOX_BARCODE']}")
+        try:
+            self.table_mng.execute_delete("table2", self.table2.loc[item_id2, "BOX_BARCODE"])
+            logger.info(f"DELETE : {self.table2.loc[item_id2, 'BOX_BARCODE']}")
+        except:
+            logger.error("DB error : table2 delete")
+            logger.error(traceback.format_exc())
         
         # 테이블2에서 없애기
         self.table2.drop(item_id2, inplace=True)
@@ -342,14 +372,20 @@ class MainWindow(tk.Tk):
         self.treeview1.item(item_id1, values=list(self.table1.loc[item_id1, cols]))
         
         # DB에서 -1
-        self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY-1", order_no)
-        self.table_mng.execute_update("table1", "PROD_QTY", "PROD_QTY-1", order_no)
-        logger.info(f"UPDATE : {order_no} - detail : QTY-1")
+        try:
+            self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY-1", order_no)
+            self.table_mng.execute_update("table1", "PROD_QTY", "PROD_QTY-1", order_no)
+            logger.info(f"UPDATE : {order_no} - detail : QTY-1")
+        except:
+            logger.error("DB error : table1 update")
+            logger.error(traceback.format_exc())
         
     #######################################################################
     # 재인쇄 버튼
     
     def resubmit(self):
+        logger.info('function : resubmit')
+        
         # 선택검사
         item_ids = self.treeview2.selection()
         if not item_ids:
@@ -361,11 +397,17 @@ class MainWindow(tk.Tk):
         answer = mb.askquestion("인쇄하기", f"순번 : {item_id2}\n해당 라벨을 \n재인쇄 할까요?")
         if answer == "no": return
     
-        # table +1, DB +1
+        # table +1
         self.table2.loc[item_id2, "PRINT_CNT"] += 1
-        barcode = self.table2.loc[item_id2, "BOX_BARCODE"]
-        self.table_mng.execute_update("table2", "PRINT_CNT", "PRINT_CNT+1", barcode)
-        logger.info(f"UPDATE : {barcode} - detail : CNT+1")
+        
+        # DB +1
+        try:
+            barcode = self.table2.loc[item_id2, "BOX_BARCODE"]
+            self.table_mng.execute_update("table2", "PRINT_CNT", "PRINT_CNT+1", barcode)
+            logger.info(f"UPDATE : {barcode} - detail : CNT+1")
+        except:
+            logger.error("DB error : table2 update")
+            logger.error(traceback.format_exc())
     
         # 인쇄
         self.print_label(item_id2)
@@ -464,15 +506,28 @@ class MainWindow(tk.Tk):
     # 바인드 : 조회, 인쇄목록
     
     def update_table(self, event=None):
+        logger.info('function : update_table')
+        
         # DB 다시 가져오기
-        self.table1 = self.table_mng.execute_select("table1", self.cal.get_date())
-        logger.info(f"SELECT : {self.cal.get_date()}")
-        self.table2 = pd.DataFrame([], columns=self.table2.columns)
+        try:
+            self.table1 = self.table_mng.execute_select("table1", self.cal.get_date())
+            logger.info(f"SELECT : {self.cal.get_date()}")
+        except:
+            self.table1 = pd.read_csv(NODB_PATH, encoding='cp949')
+            logger.error("DB error : table1 select")
+            logger.error(traceback.format_exc())
+            mb.showwarning(title="", message="DB 연결 실패했어요.\n테스트용 데이터 가져왔어요.")
+            
+        self.table1['number'] = None
+        assert set(self.table1.columns) == set(self.table1_keys)
         
         # table1 수정
         self.table1[["PROD_QTY", "BOX_IN_CNT"]] = self.table1[["PROD_QTY", "BOX_IN_CNT"]].astype(int)
         dic = ddict(lambda:"대기", {"ORDER":"대기", "RUN":"가동", "END":"종료"})
         self.table1["ORDER_ST"] = list(map(lambda x:dic[x], self.table1["ORDER_ST"]))
+        
+        # table2 청소
+        self.table2 = pd.DataFrame([], columns=self.table2_keys)
         
         # 트리뷰1 청소
         for item_id in self.treeview1.get_children():
@@ -496,6 +551,8 @@ class MainWindow(tk.Tk):
             self.treeview1.item(item_id1, values=list(self.table1.loc[item_id1, cols]))
         
     def load_print_list(self, event):
+        logger.info('function : load_print_list')
+        
         # 선택 검사 ( 그럴리는 없겠지만 )
         temp = self.treeview1.selection()
         if not temp: return
@@ -503,14 +560,20 @@ class MainWindow(tk.Tk):
         # 트리뷰1에서 지시번호 가져오기
         item_id1 = temp[0]
         order_no = self.table1.loc[item_id1, 'ORDER_NO']
-        # row = list(self.treeview1.item(item_id1)['values'])
-        # idx = self.treeview1['columns'].index("ORDER_NO")
-        # order_no = row[idx]
         
         # DB에서 테이블2
-        self.table2 = self.table_mng.execute_select('table2', order_no)
-        logger.info(f"SELECT : {order_no} - detail : load_print_list")
+        try:
+            self.table2 = self.table_mng.execute_select('table2', order_no)
+            logger.info(f"SELECT : {order_no} - detail : load_print_list")
+        except:
+            self.table2 = pd.DataFrame([], columns=self.table2_keys)
+            logger.warn("DB error : table2 select")
+            logger.error(traceback.format_exc())
+            mb.showwarning(title="", message="DB 연결 실패했어요.")
+            
+        self.table2['number'] = None
         self.table2.rename(columns={'LOT_NO':'WLOT_NO'}, inplace=True)
+        assert set(self.table2.columns) == set(self.table2_keys)
         
         # 트리뷰2 청소
         for item_id in self.treeview2.get_children():

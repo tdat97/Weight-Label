@@ -15,7 +15,7 @@ class TableManager():
         db_info_dic = json.loads(db_info_str)
         self.db_con = pymysql.connect(**db_info_dic, charset='utf8', autocommit=True)
         
-    def execute_select(self, detail_dir, *args, csv_path=None):
+    def execute_select(self, detail_dir, *args):
         with open(os.path.join(self.sql_dir_path, detail_dir, "select.txt"), 'r') as f:
             sql = f.read()
         
@@ -46,15 +46,4 @@ class TableManager():
         sql = sql.format(*args)
         cur = self.db_con.cursor()
         cur.execute(sql)
-        
-    
-class NodbManager():
-    def execute_select(self, *args, csv_path=None):
-        df = pd.read_csv(csv_path, encoding='cp949')
-        return df
-    
-    def execute_update(self, *args):
-        pass
-    
-    def execute_insert(self, *args):
-        pass
+  
