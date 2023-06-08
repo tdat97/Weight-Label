@@ -100,20 +100,21 @@ class MainWindow(tk.Tk):
         # 라벨지에 들어가는 키
         self.paper_keys = ["ITEM_CD", "ITEM_NM", "MFFART_RPT_NO", "BOX_WGT", "PRINT_DT", "EXPIRY_DT", 
                            "BUTCHERY_NM", "PLOR_CD", "STRG_TYPE", "HIS_NO", "BOX_BARCODE"]
+                           # "BOX_BARCODE2", "BOX_BARCODE3", "BOX_BARCODE4"]
         
         # DB 인쇄목록에 들어가는 키
         self.insert_keys = ['ORDER_NO', 'BOX_BARCODE', 'WLOT_NO', 'PRINT_CNT', 'PRINT_DT', 
                             'BOX_IN_CNT', 'BOX_WGT', 'ITEM_CD', 'ITEM_NM', 'PLOR_CD']
         
         
-        
         self.table1_keys = ["number", "ORDER_NO", "ORDER_DT", "EXPIRY_DT", "HIS_NO", "PROD_QTY", "ORDER_ST", "WLOT_NO", 
                             'ITEM_CD', 'ITEM_NM', "MFFART_RPT_NO", 'BOX_IN_CNT', 'PLOR_CD', "STRG_TYPE", "BUNDLE_NO",
-                            "BUTCHERY_NM", ]
+                            "BUTCHERY_NM", ]#"BUTCHERY_CD", "부위명", "PRD_NUM1", "PRD_NUM2", "PRD_NUM3", ]
         
         self.table2_keys = ["number", "ORDER_NO", "BOX_BARCODE", "WLOT_NO", 'PRINT_CNT', 'PRINT_DT',
                             'BOX_IN_CNT', 'BOX_WGT', 'ITEM_CD', 'ITEM_NM', 'PLOR_CD', "MFFART_RPT_NO", "STRG_TYPE", 
                             "EXPIRY_DT", "HIS_NO", "ORDER_DT", "BUTCHERY_NM", ]
+                           # "BOX_BARCODE2", "BOX_BARCODE3", "BOX_BARCODE4"]
         
         # 테이블 생성
         self.table1 = pd.DataFrame([], columns=self.table1_keys)
@@ -232,8 +233,8 @@ class MainWindow(tk.Tk):
         # DB에 +1
         try:
             order_no = self.table1.loc[item_id1, 'ORDER_NO']
-            self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY+1", order_no)
-            self.table_mng.execute_update("table1", "PROD_QTY", "PROD_QTY+1", order_no)
+            self.table_mng.execute_update("wo100", "GOOD_QTY", "GOOD_QTY+1", order_no)
+            self.table_mng.execute_update("wo100", "PROD_QTY", "PROD_QTY+1", order_no)
             logger.info(f"UPDATE : {order_no} - detail : QTY+1")
         except:
             logger.error("DB error : table1 update")
@@ -253,6 +254,9 @@ class MainWindow(tk.Tk):
     def append_table2(self, item_id1, weight):
         logger.info('function : append_table2')
         
+        # 협력회사코드 가져오기
+        partner_cd = self.setting_dic["partner_cd"] if "partner_cd" in self.setting_dic else "263901"
+        
         # 목록에 추가
         for col in self.table2.columns:
             if col in self.table1.columns:
@@ -261,11 +265,7 @@ class MainWindow(tk.Tk):
         # treeview 빈 행 추가
         item_id2 = self.treeview2.insert('', 'end')
             
-        # 열 추가
-        # number, weight, today
-        self.table2.loc["temp", ["number", "BOX_WGT", "PRINT_DT", "PRINT_CNT"]] = [item_id2, weight, self.cal.get_date(), 1]
-        
-        # 바코드 조합
+        # 바코드 조합1
         item_cd, print_dt, box_wgt, strg_type = self.table2.loc['temp', ["ITEM_CD", "PRINT_DT", "BOX_WGT", "STRG_TYPE"]]
         temp = "{:0>6}".format(item_cd[-6:]) # 품목코드
         temp += "{:0>6}".format(re.sub('\-', '', str(print_dt))[-6:]) # 제조일자
@@ -273,6 +273,39 @@ class MainWindow(tk.Tk):
         temp += "{:0>2}".format(ddict(lambda:"01", {"F":"01", "C":"02"})[strg_type]) # 중량
         temp += "{:0>8}".format(np.random.randint(0, 10**8))
         self.table2.loc["temp", "BOX_BARCODE"] = temp
+#         self.table2.loc["temp", ["BOX_BARCODE2", "BOX_BARCODE3", "BOX_BARCODE4"]] = [None, None, None]
+        
+#         # 바코드 조합2
+#         if self.table1.loc[item_id1, "PRD_NUM1"] is not None:
+#             temp = "{:0>6}".format(str(int(self.table1.loc[item_id1, "PRD_NUM1"]))[-6:]) # 상품번호(6)
+#             temp += "{:0>6}".format(re.sub('\.', '', str(box_wgt))[-6:]) # 중량(6)
+#             temp += "{:0>6}".format(str(partner_cd)[-6:]) # 협력회사코드(6)
+#             temp += "{:0>15}".format(str(self.table1.loc[item_id1, "BUNDLE_NO"])[-15:]) # 묶음번호(15)
+#             temp += "{:0>4}".format(str(self.table1.loc[item_id1, "BUTCHERY_CD"])[-4:]) # 도축장번호(4)
+#             self.table2.loc["temp", "BOX_BARCODE2"] = temp
+        
+#         # 바코드 조합3
+#         if self.table1.loc[item_id1, "PRD_NUM2"] is not None:
+#             temp = "{:0>6}".format(str(int(self.table1.loc[item_id1, "PRD_NUM2"]))[-6:]) # 상품번호(6)
+#             temp += "{:0>6}".format(re.sub('\.', '', str(box_wgt))[-6:]) # 중량(6)
+#             temp += "{:0>6}".format(str(partner_cd)[-6:]) # 협력회사코드(6)
+#             temp += "{:0>15}".format(str(self.table1.loc[item_id1, "BUNDLE_NO"])[-15:]) # 묶음번호(15)
+#             temp += "{:0>4}".format(str(self.table1.loc[item_id1, "BUTCHERY_CD"])[-4:]) # 도축장번호(4)
+#             self.table2.loc["temp", "BOX_BARCODE3"] = temp
+        
+#         # 바코드 조합4
+#         if self.table1.loc[item_id1, "PRD_NUM3"] is not None:
+#             temp = "{:0>6}".format(str(int(self.table1.loc[item_id1, "PRD_NUM3"]))[-6:]) # 상품번호(6)
+#             temp += "{:0>6}".format(re.sub('\.', '', str(box_wgt))[-6:]) # 중량(6)
+#             temp += "{:0>6}".format(str(partner_cd)[-6:]) # 협력회사코드(6)
+#             temp += "{:0>15}".format(str(self.table1.loc[item_id1, "BUNDLE_NO"])[-15:]) # 묶음번호(15)
+#             temp += "{:0>4}".format(str(self.table1.loc[item_id1, "BUTCHERY_CD"])[-4:]) # 도축장번호(4)
+#             self.table2.loc["temp", "BOX_BARCODE4"] = temp
+        
+        # 열 추가
+        # number, weight, today
+        today = datetime.date.today().strftime('%Y-%m-%d')
+        self.table2.loc["temp", ["number", "BOX_WGT", "PRINT_DT", "PRINT_CNT"]] = [item_id2, weight, today, 1]
         
         # treeview2 빈 행 수정
         cols = list(self.treeview2['columns'])
@@ -283,8 +316,21 @@ class MainWindow(tk.Tk):
         
         # db에 한줄 추가
         try:
-            self.table_mng.execute_insert('table2', *self.table2.loc[item_id2, self.insert_keys])
-            logger.info(f"INSERT : {self.table2.loc[item_id2, 'BOX_BARCODE']}")
+            barcode = self.table2.loc[item_id2, 'BOX_BARCODE']
+            
+            self.table_mng.execute_insert("wo180", *self.table2.loc[item_id2, self.insert_keys])
+            self.table_mng.execute_insert("key200", "STOCK_CD") # 없으면 넣음
+            self.table_mng.execute_insert("key200", "LOTNO") # 없으면 넣음
+            time.sleep(0.01)
+            self.table_mng.execute_insert("st000", barcode)
+            time.sleep(0.01)
+            self.table_mng.execute_insert("st050", barcode)
+            self.table_mng.execute_insert("wo160", barcode)
+            time.sleep(0.01)
+            self.table_mng.execute_update("key200", "STOCK_CD")
+            self.table_mng.execute_update("key200", "LOTNO")
+            
+            logger.info(f"INSERT : {barcode}")
         except:
             logger.error("DB error : table2 insert")
             logger.error(traceback.format_exc())
@@ -310,7 +356,7 @@ class MainWindow(tk.Tk):
         # DB에 적용
         try:
             order_no = self.table1.loc[item_id1, "ORDER_NO"]
-            self.table_mng.execute_update("table1", "ORDER_ST", "'END'", order_no)
+            self.table_mng.execute_update("wo100", "ORDER_ST", "'END'", order_no)
             logger.info(f"UPDATE : {order_no} - detail : END")
         except:
             logger.error("DB error : table1 update")
@@ -352,8 +398,12 @@ class MainWindow(tk.Tk):
     
         # DB에서 없애기
         try:
-            self.table_mng.execute_delete("table2", self.table2.loc[item_id2, "BOX_BARCODE"])
-            logger.info(f"DELETE : {self.table2.loc[item_id2, 'BOX_BARCODE']}")
+            barcode = self.table2.loc[item_id2, "BOX_BARCODE"]
+            self.table_mng.execute_delete("wo180", barcode)
+            self.table_mng.execute_delete("st000", barcode)
+            self.table_mng.execute_delete("st050", barcode)
+            self.table_mng.execute_delete("wo160", barcode)
+            logger.info(f"DELETE : {barcode}")
         except:
             logger.error("DB error : table2 delete")
             logger.error(traceback.format_exc())
@@ -373,8 +423,8 @@ class MainWindow(tk.Tk):
         
         # DB에서 -1
         try:
-            self.table_mng.execute_update("table1", "GOOD_QTY", "GOOD_QTY-1", order_no)
-            self.table_mng.execute_update("table1", "PROD_QTY", "PROD_QTY-1", order_no)
+            self.table_mng.execute_update("wo100", "GOOD_QTY", "GOOD_QTY-1", order_no)
+            self.table_mng.execute_update("wo100", "PROD_QTY", "PROD_QTY-1", order_no)
             logger.info(f"UPDATE : {order_no} - detail : QTY-1")
         except:
             logger.error("DB error : table1 update")
@@ -403,7 +453,7 @@ class MainWindow(tk.Tk):
         # DB +1
         try:
             barcode = self.table2.loc[item_id2, "BOX_BARCODE"]
-            self.table_mng.execute_update("table2", "PRINT_CNT", "PRINT_CNT+1", barcode)
+            self.table_mng.execute_update("wo180", "PRINT_CNT", "PRINT_CNT+1", barcode)
             logger.info(f"UPDATE : {barcode} - detail : CNT+1")
         except:
             logger.error("DB error : table2 update")
@@ -415,9 +465,9 @@ class MainWindow(tk.Tk):
     def print_label(self, item_id2):
         # 계량목록 테이블에서 값 가져오기
         paper_info = self.table2.loc[item_id2, self.paper_keys].values
+        paper_dic = dict(zip(self.paper_keys, paper_info))
         
         # 데이터 수정
-        paper_dic = dict(zip(self.paper_keys, paper_info))
         paper_dic = self.edit_data(paper_dic)
         logger.info(f"paper_dic : {paper_dic}")
         
@@ -468,17 +518,21 @@ class MainWindow(tk.Tk):
         paper_mng.attach(paper_dic["BUTCHERY_NM"], "도축장", barcode=False)
         paper_mng.attach(paper_dic["PLOR_CD"], "원산지", barcode=False)
         paper_mng.attach(paper_dic["STRG_TYPE"], "보관방법", barcode=False)
+        
+        # 이력묶음번호 바코드
         options = {'module_width': 0.45, 'module_height': 18}
-        paper_mng.attach("L12301305239001", "이력묶음번호", barcode=True, options=options)
-        # paper_mng.attach(paper_dic["HIS_NO"], "이력묶음번호", barcode=True, options=options)
-        options = {'module_width': 0.4, 'module_height': 10}
-        paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드1", barcode=True, rotate_num=3, options=options)
-        options = {'module_width': 0.4, 'module_height': 10}
-        paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드2", barcode=True, rotate_num=3, options=options)
-        options = {'module_width': 0.4, 'module_height': 10}
-        paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드3", barcode=True, rotate_num=3, options=options)
-        options = {'module_width': 0.4, 'module_height': 10}
-        paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드4", barcode=True, rotate_num=3, options=options)
+        # paper_mng.attach("L12301305239001", "이력묶음번호", barcode=True, options=options)
+        paper_mng.attach(paper_dic["HIS_NO"], "이력묶음번호", barcode=True, options=options)
+        
+        # 4개 바코드
+        # options = {'module_width': 0.4, 'module_height': 10}
+        # paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드1", barcode=True, rotate_num=3, options=options)
+        # if paper_dic["BOX_BARCODE2"] is not None:
+        #     paper_mng.attach(paper_dic["BOX_BARCODE2"], "바코드2", barcode=True, rotate_num=3, options=options)
+        # if paper_dic["BOX_BARCODE3"] is not None:
+        #     paper_mng.attach(paper_dic["BOX_BARCODE3"], "바코드3", barcode=True, rotate_num=3, options=options)
+        # if paper_dic["BOX_BARCODE4"] is not None:
+        #     paper_mng.attach(paper_dic["BOX_BARCODE4"], "바코드4", barcode=True, rotate_num=3, options=options)
         
         return paper_mng.get_img()
     
@@ -510,7 +564,7 @@ class MainWindow(tk.Tk):
         
         # DB 다시 가져오기
         try:
-            self.table1 = self.table_mng.execute_select("table1", self.cal.get_date())
+            self.table1 = self.table_mng.execute_select("wo100", self.cal.get_date())
             logger.info(f"SELECT : {self.cal.get_date()}")
         except:
             self.table1 = pd.read_csv(NODB_PATH, encoding='cp949')
@@ -563,7 +617,7 @@ class MainWindow(tk.Tk):
         
         # DB에서 테이블2
         try:
-            self.table2 = self.table_mng.execute_select('table2', order_no)
+            self.table2 = self.table_mng.execute_select("wo180", order_no)
             logger.info(f"SELECT : {order_no} - detail : load_print_list")
         except:
             self.table2 = pd.DataFrame([], columns=self.table2_keys)

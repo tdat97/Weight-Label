@@ -1,0 +1,31 @@
+SELECT 
+    w.ORDER_NO,
+    w.ORDER_DT,
+    w.EXPIRY_DT, 
+    w.HIS_NO, 
+    w.PROD_QTY, 
+    w.ORDER_ST,
+    w.WLOT_NO,
+    i.ITEM_CD, 
+    i.ITEM_NM, 
+    i.MFFART_RPT_NO, 
+    i.BOX_IN_CNT,
+    i.PLOR_CD, 
+    i.STRG_TYPE,
+    i.PRD_NUM1,
+    i.PRD_NUM2,
+    i.PRD_NUM3,
+    i.부위명
+    s300.BUNDLE_NO, 
+    s300.BUTCHERY_CD,
+    s300.BUTCHERY_NM
+FROM 
+    tb_mes_wo100 as w
+    JOIN tb_mes_item000 as i ON w.ITEM_CD = i.ITEM_CD
+    JOIN tb_mes_skrg310 as s310 
+        ON w.HIS_NO = s310.BUNDLE_NO OR w.HIS_NO = s310.PIG_NO
+    JOIN tb_mes_skrg300 as s300 
+        ON s310.BUNDLE_NO = s300.BUNDLE_NO
+    
+WHERE
+    w.ORDER_DT = '{0}' AND w.COMPANY = 1000;

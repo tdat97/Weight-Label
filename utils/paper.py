@@ -58,4 +58,4 @@ class PaperManager(object):
         return img
         
     def get_img(self):
-        return self.img
+        return self.img.copy()

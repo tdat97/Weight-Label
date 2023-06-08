@@ -1736,3 +1736,245 @@ AttributeError: 'NoneType' object has no attribute 'execute_select'
     self.table1 = self.table_mng.execute_select("table1", self.cal.get_date())
 AttributeError: 'NoneType' object has no attribute 'execute_select'
 
+2023-06-07 11:17:33,887 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-06-07 11:17:33,888 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-06-07 11:17:34,846 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 11:17:34,846 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-06-07 11:17:34,846 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-06-07 11:17:35,115 - root - INFO - function : update_table
+2023-06-07 11:17:35,136 - root - INFO - SELECT : 2023-06-07
+2023-06-07 11:17:37,952 - root - INFO - function : load_print_list
+2023-06-07 11:17:37,961 - root - INFO - SELECT : WO2305345 - detail : load_print_list
+2023-06-07 11:18:13,324 - root - INFO - function : submit 
+2023-06-07 11:18:16,755 - root - INFO - function : append_table2
+2023-06-07 11:18:16,865 - root - INFO - INSERT : 0003452306070007510198988469
+2023-06-07 11:18:16,875 - root - INFO - UPDATE : WO2305345 - detail : QTY+1
+2023-06-07 11:18:16,877 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '75.1 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452306070007510198988469'}
+2023-06-07 11:18:16,879 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 11:18:16,879 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 8192
+2023-06-07 11:21:27,281 - root - INFO - function : submit 
+2023-06-07 11:21:29,323 - root - INFO - function : append_table2
+2023-06-07 11:21:29,434 - root - INFO - INSERT : 0003452306070002240152091495
+2023-06-07 11:21:29,443 - root - INFO - UPDATE : WO2305345 - detail : QTY+1
+2023-06-07 11:21:29,444 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '22.4 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452306070002240152091495'}
+2023-06-07 11:23:18,057 - root - INFO - function : resubmit
+2023-06-07 11:23:19,982 - root - INFO - UPDATE : 0003452306070002240152091495 - detail : CNT+1
+2023-06-07 11:23:19,983 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '22.4 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452306070002240152091495'}
+2023-06-07 11:23:59,634 - root - INFO - function : undo_append
+2023-06-07 11:24:01,673 - root - INFO - DELETE : 0003452306070007510198988469
+2023-06-07 11:24:01,683 - root - INFO - UPDATE : WO2305345 - detail : QTY-1
+2023-06-07 11:44:27,749 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-06-07 11:44:27,749 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-06-07 11:44:28,176 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 11:44:28,176 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-06-07 11:44:28,176 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-06-07 11:44:28,439 - root - INFO - function : update_table
+2023-06-07 11:44:28,448 - root - INFO - SELECT : 2023-06-07
+2023-06-07 11:44:40,969 - root - INFO - function : load_print_list
+2023-06-07 11:44:40,977 - root - INFO - SELECT : WO2305345 - detail : load_print_list
+2023-06-07 11:44:56,616 - root - INFO - function : submit 
+2023-06-07 11:45:00,556 - root - INFO - function : submit 
+2023-06-07 11:45:03,738 - root - INFO - function : append_table2
+2023-06-07 11:45:03,844 - root - INFO - INSERT : 0003452306070077580127987687
+2023-06-07 11:45:03,854 - root - INFO - UPDATE : WO2305345 - detail : QTY+1
+2023-06-07 11:45:03,855 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '77.58 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452306070077580127987687'}
+2023-06-07 11:45:03,855 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 11:45:03,855 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 8192
+2023-06-07 11:49:28,449 - root - INFO - function : update_table
+2023-06-07 11:49:28,456 - root - INFO - SELECT : 2023-06-07
+2023-06-07 11:52:21,918 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-06-07 11:52:21,918 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-06-07 11:52:22,349 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 11:52:22,350 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-06-07 11:52:22,350 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-06-07 11:52:22,389 - root - WARNING - DB ∑ŒµÂ Ω«∆–
+2023-06-07 11:52:22,390 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 84, in __init__
+    if nodb: raise Exception("NoDB mode.")
+Exception: NoDB mode.
+
+2023-06-07 11:52:23,348 - root - INFO - function : update_table
+2023-06-07 11:52:23,351 - root - ERROR - DB error : table1 select
+2023-06-07 11:52:23,351 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 530, in update_table
+    self.table1 = self.table_mng.execute_select("wo100", self.cal.get_date())
+AttributeError: 'NoneType' object has no attribute 'execute_select'
+
+2023-06-07 11:52:28,175 - root - INFO - function : load_print_list
+2023-06-07 11:52:28,176 - root - WARNING - DB error : table2 select
+2023-06-07 11:52:28,176 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 583, in load_print_list
+    self.table2 = self.table_mng.execute_select("wo180", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_select'
+
+2023-06-07 11:52:36,988 - root - INFO - function : submit 
+2023-06-07 11:52:38,200 - root - INFO - function : append_table2
+2023-06-07 11:52:38,203 - root - ERROR - DB error : table2 insert
+2023-06-07 11:52:38,203 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 288, in append_table2
+    self.table_mng.execute_insert("wo180", *self.table2.loc[item_id2, self.insert_keys])
+AttributeError: 'NoneType' object has no attribute 'execute_insert'
+
+2023-06-07 11:52:38,203 - root - ERROR - DB error : table1 update
+2023-06-07 11:52:38,204 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 235, in submit
+    self.table_mng.execute_update("wo100", "GOOD_QTY", "GOOD_QTY+1", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-06-07 11:52:38,205 - root - INFO - paper_dic : {'ITEM_CD': 'PR0001', 'ITEM_NM': 'test_unn1', 'MFFART_RPT_NO': 'm123456', 'BOX_WGT': '28.75 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(µµ√‡¿Â1)', 'PLOR_CD': '»£¡÷ªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'SK2302021', 'BOX_BARCODE': 'PR00012306070028750155925862'}
+2023-06-07 11:52:38,205 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 11:52:38,205 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 8192
+2023-06-07 11:52:41,517 - root - INFO - function : undo_append
+2023-06-07 11:52:46,084 - root - ERROR - DB error : table2 delete
+2023-06-07 11:52:46,084 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 369, in undo_append
+    self.table_mng.execute_delete("wo180", barcode)
+AttributeError: 'NoneType' object has no attribute 'execute_delete'
+
+2023-06-07 11:52:46,085 - root - ERROR - DB error : table1 update
+2023-06-07 11:52:46,086 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 393, in undo_append
+    self.table_mng.execute_update("wo100", "GOOD_QTY", "GOOD_QTY-1", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-06-07 11:52:56,625 - root - INFO - function : load_print_list
+2023-06-07 11:52:56,627 - root - WARNING - DB error : table2 select
+2023-06-07 11:52:56,627 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 583, in load_print_list
+    self.table2 = self.table_mng.execute_select("wo180", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_select'
+
+2023-06-07 11:52:59,200 - root - INFO - function : submit 
+2023-06-07 11:53:00,290 - root - INFO - function : append_table2
+2023-06-07 11:53:00,293 - root - ERROR - DB error : table2 insert
+2023-06-07 11:53:00,293 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 288, in append_table2
+    self.table_mng.execute_insert("wo180", *self.table2.loc[item_id2, self.insert_keys])
+AttributeError: 'NoneType' object has no attribute 'execute_insert'
+
+2023-06-07 11:53:00,293 - root - ERROR - DB error : table1 update
+2023-06-07 11:53:00,293 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 235, in submit
+    self.table_mng.execute_update("wo100", "GOOD_QTY", "GOOD_QTY+1", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-06-07 11:53:00,294 - root - INFO - paper_dic : {'ITEM_CD': 'PR0010', 'ITEM_NM': 'test_unn10', 'MFFART_RPT_NO': 'm123456', 'BOX_WGT': '99.95 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(µµ√‡¿Â2)', 'PLOR_CD': '»£¡÷ªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'SK2302021', 'BOX_BARCODE': 'PR00102306070099950173309905'}
+2023-06-07 11:53:24,137 - root - INFO - function : resubmit
+2023-06-07 11:53:24,849 - root - ERROR - DB error : table2 update
+2023-06-07 11:53:24,850 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 423, in resubmit
+    self.table_mng.execute_update("wo180", "PRINT_CNT", "PRINT_CNT+1", barcode)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-06-07 11:53:24,851 - root - INFO - paper_dic : {'ITEM_CD': 'PR0010', 'ITEM_NM': 'test_unn10', 'MFFART_RPT_NO': 'm123456', 'BOX_WGT': '99.95 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2024-05-08', 'BUTCHERY_NM': '(µµ√‡¿Â2)', 'PLOR_CD': '»£¡÷ªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'SK2302021', 'BOX_BARCODE': 'PR00102306070099950173309905'}
+2023-06-07 11:53:27,668 - root - INFO - function : undo_append
+2023-06-07 11:53:28,476 - root - ERROR - DB error : table2 delete
+2023-06-07 11:53:28,476 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 369, in undo_append
+    self.table_mng.execute_delete("wo180", barcode)
+AttributeError: 'NoneType' object has no attribute 'execute_delete'
+
+2023-06-07 11:53:28,477 - root - ERROR - DB error : table1 update
+2023-06-07 11:53:28,478 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\___SPACE2\Weight-Label\gui\__init__.py", line 393, in undo_append
+    self.table_mng.execute_update("wo100", "GOOD_QTY", "GOOD_QTY-1", order_no)
+AttributeError: 'NoneType' object has no attribute 'execute_update'
+
+2023-06-07 11:53:53,310 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-06-07 11:53:53,310 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-06-07 11:53:53,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 11:53:53,719 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-06-07 11:53:53,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-06-07 11:53:53,870 - root - INFO - function : update_table
+2023-06-07 11:53:53,880 - root - INFO - SELECT : 2023-06-07
+2023-06-07 11:54:36,318 - root - INFO - function : load_print_list
+2023-06-07 11:54:36,326 - root - INFO - SELECT : WO2305345 - detail : load_print_list
+2023-06-07 11:54:59,596 - root - INFO - function : resubmit
+2023-06-07 11:55:01,061 - root - INFO - UPDATE : 0003452306070002240152091495 - detail : CNT+1
+2023-06-07 11:55:01,061 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '22.4 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452306070002240152091495'}
+2023-06-07 11:55:01,062 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 11:55:01,062 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 8192
+2023-06-07 11:57:11,688 - root - INFO - function : load_print_list
+2023-06-07 11:57:18,012 - root - INFO - SELECT : WO2305345 - detail : load_print_list
+2023-06-07 11:57:18,045 - root - INFO - function : submit 
+2023-06-07 11:57:27,579 - root - INFO - function : submit 
+2023-06-07 11:57:31,908 - root - INFO - function : submit 
+2023-06-07 11:57:35,874 - root - INFO - function : append_table2
+2023-06-07 11:57:35,972 - root - INFO - INSERT : 0003452306070081110120684673
+2023-06-07 11:57:35,989 - root - INFO - UPDATE : WO2305345 - detail : QTY+1
+2023-06-07 11:57:35,990 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '81.11 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452306070081110120684673'}
+2023-06-07 11:59:52,353 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-06-07 11:59:52,353 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-06-07 11:59:52,775 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 11:59:52,776 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-06-07 11:59:52,776 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-06-07 11:59:52,928 - root - INFO - function : update_table
+2023-06-07 11:59:52,938 - root - INFO - SELECT : 2023-06-07
+2023-06-07 12:05:34,175 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-06-07 12:05:34,175 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-06-07 12:05:34,616 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 12:05:34,616 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-06-07 12:05:34,616 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-06-07 12:05:34,845 - root - INFO - function : update_table
+2023-06-07 12:05:34,854 - root - INFO - SELECT : 2023-06-07
+2023-06-07 12:05:37,473 - root - INFO - function : update_table
+2023-06-07 12:05:37,479 - root - INFO - SELECT : 2023-06-06
+2023-06-07 12:05:39,847 - root - INFO - function : update_table
+2023-06-07 12:05:39,854 - root - INFO - SELECT : 2023-06-06
+2023-06-07 12:05:46,871 - root - INFO - function : load_print_list
+2023-06-07 12:05:46,878 - root - INFO - SELECT : WO2305999 - detail : load_print_list
+2023-06-07 12:05:48,843 - root - INFO - function : update_table
+2023-06-07 12:05:48,850 - root - INFO - SELECT : 2023-06-06
+2023-06-07 12:05:49,782 - root - INFO - function : load_print_list
+2023-06-07 12:05:49,788 - root - INFO - SELECT : WO2305999 - detail : load_print_list
+2023-06-07 12:05:50,655 - root - INFO - function : submit 
+2023-06-07 12:05:51,803 - root - INFO - function : append_table2
+2023-06-07 12:05:51,904 - root - INFO - INSERT : 0003452306060022490147865455
+2023-06-07 12:05:51,916 - root - INFO - UPDATE : WO2305999 - detail : QTY+1
+2023-06-07 12:05:51,917 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '22.49 kg', 'PRINT_DT': '2023-06-06', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452306060022490147865455'}
+2023-06-07 12:05:51,917 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 12:05:51,917 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 8192
+2023-06-07 12:20:29,560 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-06-07 12:20:29,561 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-06-07 12:20:29,989 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 12:20:29,989 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-06-07 12:20:29,990 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-06-07 12:20:30,159 - root - INFO - function : update_table
+2023-06-07 12:20:30,167 - root - INFO - SELECT : 2023-06-07
+2023-06-07 12:20:32,752 - root - INFO - function : update_table
+2023-06-07 12:20:32,759 - root - INFO - SELECT : 2023-06-06
+2023-06-07 12:20:34,933 - root - INFO - function : load_print_list
+2023-06-07 12:20:34,941 - root - INFO - SELECT : WO2305999 - detail : load_print_list
+2023-06-07 12:20:36,806 - root - INFO - function : submit 
+2023-06-07 12:20:38,876 - root - INFO - function : submit 
+2023-06-07 12:20:40,151 - root - INFO - function : append_table2
+2023-06-07 12:20:40,260 - root - INFO - INSERT : 0003452306070052850180599053
+2023-06-07 12:20:40,269 - root - INFO - UPDATE : WO2305999 - detail : QTY+1
+2023-06-07 12:20:40,270 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '52.85 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452306070052850180599053'}
+2023-06-07 12:20:40,270 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 12:20:40,270 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 8192
+2023-06-07 15:18:55,466 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-06-07 15:18:55,466 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-06-07 15:18:55,958 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 15:18:55,958 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-06-07 15:18:55,959 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-06-07 15:18:56,222 - root - INFO - function : update_table
+2023-06-07 15:18:56,232 - root - INFO - SELECT : 2023-06-07
+2023-06-07 15:19:02,134 - root - INFO - function : load_print_list
+2023-06-07 15:19:02,141 - root - INFO - SELECT : WO2305345 - detail : load_print_list
+2023-06-07 15:19:03,960 - root - INFO - function : submit 
+2023-06-07 15:19:05,269 - root - INFO - function : append_table2
+2023-06-07 15:19:05,383 - root - INFO - INSERT : 0003452306070031630121156831
+2023-06-07 15:19:05,393 - root - INFO - UPDATE : WO2305345 - detail : QTY+1
+2023-06-07 15:19:05,394 - root - INFO - paper_dic : {'ITEM_CD': '00345', 'ITEM_NM': '∫ÒΩ—ªÔ∞„ªÏ', 'MFFART_RPT_NO': '20230000000001', 'BOX_WGT': '31.63 kg', 'PRINT_DT': '2023-06-07', 'EXPIRY_DT': '2033-05-22', 'BUTCHERY_NM': 'µµ√‡¿Â1', 'PLOR_CD': '±π≥ªªÍ', 'STRG_TYPE': '-18°… ¿Ã«œ ≥√µø∫∏∞¸', 'HIS_NO': 'L12345678901234', 'BOX_BARCODE': '0003452306070031630121156831'}
+2023-06-07 15:19:05,395 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 15:19:05,395 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 8192
+2023-06-07 16:47:00,139 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-06-07 16:47:00,139 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2023-06-07 16:47:00,966 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-06-07 16:47:00,966 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-06-07 16:47:00,967 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 7131
+2023-06-07 16:47:01,243 - root - INFO - function : update_table
+2023-06-07 16:47:01,253 - root - INFO - SELECT : 2023-06-07
+2023-06-07 16:47:03,504 - root - INFO - function : load_print_list
+2023-06-07 16:47:03,515 - root - INFO - SELECT : WO2305345 - detail : load_print_list
