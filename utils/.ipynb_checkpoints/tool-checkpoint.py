@@ -2,11 +2,11 @@ from barcode.writer import ImageWriter
 import barcode
 import io
 from PIL import Image
-def make_barcode_img(code, kind='gs1_128', options=None):
+def make_barcode_img(code, kind='gs1_128', options=None, font_path=None):
     assert type(code) is str
     
     # 바코드 생성
-    bar = barcode.get(kind, code, writer=ImageWriter())
+    bar = barcode.get(kind, code, writer=ImageWriter(font_path=font_path))
     options = {'module_width': 0.4, 'module_height': 10} if options is None else options
     barcode_image = bar.render(options)
     

@@ -1,0 +1,2 @@
+UPDATE tb_mes_wo100 SET {0}={1} 
+WHERE ORDER_NO='{2}' AND COMPANY='1000';

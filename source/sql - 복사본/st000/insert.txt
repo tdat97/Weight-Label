@@ -1,0 +1,24 @@
+INSERT INTO tb_mes_st000 (
+COMPANY, STOCK_CD, STOCK_DT, WH_CD, ITEM_CD, LOT_NO, BARCODE, ROUT_CD, 
+WLOT_NO, STOCK_QTY, OUT_YN, WIP_YN, QC_DT, QC_FLAG, QC_WAY, PRD_USE_YN
+)
+WITH k200 AS (SELECT * FROM tb_mes_key200 WHERE CODE_DT = DATE_FORMAT(NOW(), '%y%m')),
+w180 AS (SELECT * FROM tb_mes_wo180 WHERE BOX_BARCODE = '{0}'),
+w100 AS (SELECT * FROM tb_mes_wo100 WHERE ORDER_NO IN (SELECT ORDER_NO FROM w180))
+SELECT
+1000 as company,
+(SELECT CONCAT('T', CODE_DT, LPAD(SEQ, 4, '0')) FROM k200 WHERE CODE_TYPE='STOCK_CD') as stock_cd,
+CURDATE() as stock_dt,
+(SELECT IFNULL(WH_CD, 'S001') FROM w100) as wh_cd,
+(SELECT ITEM_CD FROM w100) as item_cd,
+(SELECT CONCAT('SV', CODE_DT, LPAD(SEQ, 4, '0')) FROM k200 WHERE CODE_TYPE='LOTNO') as lot_no,
+'{0}' as barcode,
+(SELECT ROUT_CD FROM w100) as rout_cd,
+(SELECT WLOT_NO FROM w100) as wlot_no,
+(SELECT BOX_WGT FROM w180) as stock_qty,
+'Y' as out_yn,
+'N' as wip_yn,
+CURDATE() as qc_dt,
+'Y' as qc_flag,
+'10' as qc_way,
+'N' as prd_use_yn;

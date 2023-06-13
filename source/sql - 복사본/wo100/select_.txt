@@ -1,0 +1,22 @@
+SELECT 
+    w.ORDER_NO,
+    w.ORDER_DT,
+    w.EXPIRY_DT, 
+    w.HIS_NO, 
+    w.PROD_QTY, 
+    w.ORDER_ST,
+    w.WLOT_NO,
+    i.ITEM_CD, 
+    i.ITEM_NM, 
+    i.MFFART_RPT_NO, 
+    i.BOX_IN_CNT,
+    i.PLOR_CD, 
+    i.STRG_TYPE,
+    s.BUNDLE_NO, 
+    s.BUTCHERY_NM
+FROM 
+    tb_mes_wo100 w
+    JOIN tb_mes_item000 i ON w.ITEM_CD = i.ITEM_CD
+    JOIN tb_mes_skrghis110 s ON w.HIS_NO = s.HIS_NO
+WHERE
+    w.ORDER_DT = '{}' AND w.COMPANY = 1000;

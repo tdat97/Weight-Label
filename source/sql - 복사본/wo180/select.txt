@@ -1,0 +1,26 @@
+SELECT 
+    w8.ORDER_NO,
+    w8.BOX_BARCODE,
+    w8.LOT_NO,
+    w8.PRINT_CNT,
+    w8.PRINT_DT,
+    w8.BOX_IN_CNT,
+    w8.BOX_WGT,
+    w8.ITEM_CD,
+    w8.ITEM_NM,
+    w8.PLOR_CD,
+    i.MFFART_RPT_NO,
+    i.STRG_TYPE,
+    i.PART_NM,
+    w0.EXPIRY_DT,
+    w0.HIS_NO,
+    w0.ORDER_DT,
+    s300.BUTCHERY_NM
+FROM 
+    tb_mes_wo180 w8
+    JOIN tb_mes_wo100 w0 ON w8.ORDER_NO = w0.ORDER_NO
+    JOIN tb_mes_item000 i ON w8.ITEM_CD = i.ITEM_CD
+    JOIN tb_mes_skrg300 as s300 
+        ON w0.HIS_NO = s300.BUNDLE_NO
+WHERE
+    w8.ORDER_NO = '{}' AND w8.COMPANY = '1000';

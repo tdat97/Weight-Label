@@ -20,14 +20,17 @@ class PaperManager(object):
         self.label_dic = tool.json2label(json_path)
         self.font_pil = ImageFont.truetype(font_path, size=100)
         self.img = self.origin_img.copy()
+        self.font_path = font_path
         
     def reset(self):
         self.img = self.origin_img.copy()
         
     def attach(self, text, key, barcode=False, rotate_num=0, options=None):
+        if not text: return
+        
         # 이미지 생성
         if barcode:
-            fetch_img = tool.make_barcode_img(text, options=options)
+            fetch_img = tool.make_barcode_img(text, options=options, font_path=self.font_path)
         else:
             fetch_img = tool.make_text_img(text, self.font_pil)
             

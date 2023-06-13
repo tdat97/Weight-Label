@@ -1,0 +1,15 @@
+INSERT INTO tb_mes_st050 (
+COMPANY, INOUT_DT, INOUT_SEQ, INOUT_TYPE, INOUT_TYPE_DETAIL, ITEM_CD, STOCK_CD, ITEM_QTY, BARCODE
+)
+WITH s000 AS (SELECT * FROM tb_mes_st000 WHERE BARCODE='{0}' ORDER BY STOCK_DT DESC limit 1)
+SELECT 
+1000 as company,
+CURDATE() as inout_dt,
+IFNULL(MAX(s050.INOUT_SEQ)+1, 1) as inout_seq,
+'IN' as inout_type,
+'10' as inout_type_detail,
+(SELECT ITEM_CD FROM s000) as item_cd,
+(SELECT STOCK_CD FROM s000) as stock_cd,
+(SELECT STOCK_QTY FROM s000) as item_qty,
+'{0}' as barcode
+FROM tb_mes_st050 as s050 WHERE INOUT_DT=CURDATE();
