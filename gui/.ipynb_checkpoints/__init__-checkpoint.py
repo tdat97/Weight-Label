@@ -36,7 +36,7 @@ class MainWindow(tk.Tk):
         
         # 셋팅값 가져오기
         try:
-            with open(SETTING_PATH, "r", encoding='utf-8') as f:
+            with open(SETTING_PATH, "r", encoding='utf-8-sig') as f:
                 self.setting_dic = json.load(f)
         except:
             logger.error(traceback.format_exc())
@@ -98,8 +98,8 @@ class MainWindow(tk.Tk):
             self.table_mng = None
         
         # 라벨지에 들어가는 키
-        self.paper_keys = ["ITEM_CD", "ITEM_NM", "MFFART_RPT_NO", "BOX_WGT", "PRINT_DT", "EXPIRY_DT", 
-                           "BUTCHERY_NM", "PLOR_CD", "STRG_TYPE", "HIS_NO", "BOX_BARCODE", "PART_NM", ]
+        self.paper_keys = ["ITEM_CD", "MFFART_RPT_NM", "MFFART_RPT_NO", "BOX_WGT", "PRINT_DT", "EXPIRY_DT", 
+                           "BUTCHERY_NM", "PLOR_CD", "HIS_NO", "BOX_BARCODE", "SPEC", "REMARK", ]
         
         # DB 인쇄목록에 들어가는 키
         self.insert_keys = ['ORDER_NO', 'BOX_BARCODE', 'WLOT_NO', 'PRINT_CNT', 'PRINT_DT', 
@@ -108,25 +108,25 @@ class MainWindow(tk.Tk):
         
         self.table1_keys = ["number", "ORDER_NO", "ORDER_DT", "EXPIRY_DT", "HIS_NO", "PROD_QTY", "ORDER_ST", "WLOT_NO", 
                             'ITEM_CD', 'ITEM_NM', "MFFART_RPT_NO", 'BOX_IN_CNT', 'PLOR_CD', "STRG_TYPE", "BUNDLE_NO",
-                            "BUTCHERY_NM", "GOOD_QTY",
-                            "BUTCHERY_CD", "PART_NM", "PRD_NUM1", "PRD_NUM2", "PRD_NUM3", ]
+                            "BUTCHERY_NM", "GOOD_QTY", "REMARK", "MFFART_RPT_NM", 
+                            "BUTCHERY_CD", "SPEC", "PRD_NUM1", "PRD_NUM2", "PRD_NUM3", ]
         
         self.table2_keys = ["number", "ORDER_NO", "BOX_BARCODE", "WLOT_NO", 'PRINT_CNT', 'PRINT_DT',
                             'BOX_IN_CNT', 'BOX_WGT', 'ITEM_CD', 'ITEM_NM', 'PLOR_CD', "MFFART_RPT_NO", "STRG_TYPE", 
-                            "EXPIRY_DT", "HIS_NO", "ORDER_DT", "BUTCHERY_NM", "PART_NM", ]
+                            "EXPIRY_DT", "HIS_NO", "ORDER_DT", "BUTCHERY_NM", "SPEC", "REMARK", "MFFART_RPT_NM", ]
         
         # 테이블 생성
         self.table1 = pd.DataFrame([], columns=self.table1_keys)
         self.table2 = pd.DataFrame([], columns=self.table2_keys)
         
         # 트리뷰 컬럼 정의
-        self.tree_cols1 = ["number", "ITEM_NM", "PROD_QTY", "BOX_IN_CNT", "STRG_TYPE", "BUNDLE_NO", 
+        self.tree_cols1 = ["number", "MFFART_RPT_NM", "PROD_QTY", "BOX_IN_CNT", "REMARK", "BUNDLE_NO", 
                            "BUTCHERY_NM", "ORDER_ST"]
-        self.tree_cols2 = ["number", "ORDER_DT", "ITEM_CD", "ITEM_NM", "BOX_WGT", "HIS_NO", ]
-        self.tree_colnames1 = ['순번', '품목명', '생산(BOX)', '입수수량', '보관유형', '묶음번호', '도축장명', '상태']
-        self.tree_colnames2 = ['순번', '지시일', '품목코드', '품목명', '계량중량', '이력번호', ]
+        self.tree_cols2 = ["number", "ORDER_DT", "MFFART_RPT_NO", "MFFART_RPT_NM", "BOX_WGT", "HIS_NO", ]
+        self.tree_colnames1 = ['순번', '품목제조보고명', '생산(BOX)', '입수수량', '비고', '묶음번호', '도축장명', '상태']
+        self.tree_colnames2 = ['순번', '지시일', '품목제조보고번호', '품목제조보고명', '계량중량', '이력번호', ]
         self.tree_widths1 = [0.05, 0.30, 0.10, 0.10, 0.10, 0.15, 0.15, 0.05]
-        self.tree_widths2 = [0.05, 0.15, 0.10, 0.35, 0.10, 0.25]
+        self.tree_widths2 = [0.05, 0.15, 0.20, 0.30, 0.10, 0.20]
         
         # GUI 적용 및 bind
         self.__configure()
@@ -204,7 +204,7 @@ class MainWindow(tk.Tk):
         # treeview 정렬
         self.treeview1.column('PROD_QTY', anchor='e')
         self.treeview1.column('BOX_IN_CNT', anchor='e')
-        self.treeview1.column('STRG_TYPE', anchor='center')
+        # self.treeview1.column('REMARK', anchor='e')
         self.treeview2.column('BOX_WGT', anchor='e')
         
     #######################################################################
@@ -216,16 +216,16 @@ class MainWindow(tk.Tk):
         # 선택검사
         item_ids = self.treeview1.selection()
         if not item_ids:
-            mb.showwarning(title="", message="품목명을 선택해 주세요.")
+            mb.showwarning(title="", message="품목제조보고명을 선택해 주세요.")
             return
         item_id1 = item_ids[0]
         
         # 선택행에서 원하는 값 찾기
-        item_nm = self.table1.loc[item_id1, 'ITEM_NM']
+        mffart_rpt_nm = self.table1.loc[item_id1, 'MFFART_RPT_NM']
         
         # 여부묻기
         weight = self.measure_value
-        answer = mb.askquestion("인쇄하기", f"품목명 : {item_nm}\n계량 : {weight} kg\n인쇄 할까요?")
+        answer = mb.askquestion("인쇄하기", f"품목제조보고명 : {mffart_rpt_nm}\n계량 : {weight} kg\n인쇄 할까요?")
         if answer == "no": return
     
         # 목록에 추가
@@ -525,9 +525,9 @@ class MainWindow(tk.Tk):
         paper_dic['PLOR_CD'] = dic[paper_dic['PLOR_CD']]
         
         # F -> 냉동보관
-        dic = {'C':'-2℃~10℃ 냉장보관', 'F':'-18℃ 이하 냉동보관'}
-        dic = ddict(lambda:'-18℃ 이하 냉동보관', dic)
-        paper_dic['STRG_TYPE'] = dic[paper_dic['STRG_TYPE']]
+        # dic = {'C':'-2℃~10℃ 냉장보관', 'F':'-18℃ 이하 냉동보관'}
+        # dic = ddict(lambda:'-18℃ 이하 냉동보관', dic)
+        # paper_dic['REMARK'] = dic[paper_dic['REMARK']]
         
         # BOX_WGT -> kg
         paper_dic['BOX_WGT'] = paper_dic['BOX_WGT'] + " kg"
@@ -542,15 +542,15 @@ class MainWindow(tk.Tk):
         paper_mng = PaperManager(img_path, json_path, font_path)
         
         paper_mng.reset()
-        paper_mng.attach(paper_dic["ITEM_NM"], "제품명", barcode=False)
-        paper_mng.attach(paper_dic["MFFART_RPT_NO"], "품목제조번호", barcode=False)
-        paper_mng.attach(paper_dic["PART_NM"], "부위명", barcode=False)
+        paper_mng.attach(paper_dic["MFFART_RPT_NM"], "품목제조보고명", barcode=False)
+        paper_mng.attach(paper_dic["MFFART_RPT_NO"], "품목제조보고번호", barcode=False)
+        paper_mng.attach(paper_dic["SPEC"], "규격", barcode=False)
         paper_mng.attach(paper_dic["BOX_WGT"], "중량", barcode=False)
         paper_mng.attach(paper_dic["PRINT_DT"], "제조일자", barcode=False)
         paper_mng.attach(paper_dic["EXPIRY_DT"], "유통기한", barcode=False)
         paper_mng.attach(paper_dic["BUTCHERY_NM"], "도축장", barcode=False)
         paper_mng.attach(paper_dic["PLOR_CD"], "원산지", barcode=False)
-        paper_mng.attach(paper_dic["STRG_TYPE"], "보관방법", barcode=False)
+        paper_mng.attach(paper_dic["REMARK"], "비고", barcode=False)
         
         # 이력묶음번호 바코드
         options = {'module_width': 0.45, 'module_height': 18}
@@ -559,6 +559,7 @@ class MainWindow(tk.Tk):
         # 4개 바코드
         options = {'module_width': 0.4, 'module_height': 10}
         paper_mng.attach(paper_dic["BOX_BARCODE"], "바코드1", barcode=True, rotate_num=3, options=options)
+        options = {'module_width': 0.3, 'module_height': 10}
         paper_mng.attach(paper_dic["BOX_BARCODE2"], "바코드2", barcode=True, rotate_num=3, options=options)
         paper_mng.attach(paper_dic["BOX_BARCODE3"], "바코드3", barcode=True, rotate_num=3, options=options)
         paper_mng.attach(paper_dic["BOX_BARCODE4"], "바코드4", barcode=True, rotate_num=3, options=options)

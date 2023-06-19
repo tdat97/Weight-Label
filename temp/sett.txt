@@ -1,0 +1,23 @@
+{
+  "serial_port" : "COM4"
+  ,"test_stub" : true
+
+  ,"real_print" : false
+
+  ,"nodb" : false
+
+  ,"db_info_dir" : "./source/db_info_dir"
+
+  ,"icon_path" : "./resource/printer.ico"
+  ,"logo_path" : "./resource/smlogo_white.png"
+
+  ,"font_size_factor" : 1920
+
+  ,"n_pixel" : 2233
+  ,"paper_img_path" : "./resource/label.png"
+  ,"paper_json_path" : "./resource/label.json"
+  ,"font_path" : "./resource/NanumGothic.ttf"
+
+
+  ,"partner_cd" : "263901"
+}
